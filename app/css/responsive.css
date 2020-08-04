@@ -1,0 +1,57 @@
+
+@media(min-width:480px){
+    .head h2{
+        color: red;
+        font-size: 40px;
+    }
+    .head h1{
+        font-size: 34px;
+        color:red;
+    }
+   
+}
+@media(min-width:768px){
+    .head h2{
+        font-size: 60px;
+        color:cyan;
+    }  
+    .head h1{
+        font-size: 40px;
+        color: cyan; 
+    }
+   
+}
+@media(min-width:992px){
+    .head h2{
+        font-size: 60px;
+        font-weight: 700;
+        color: chocolate; 
+    }
+    .head h1{                                                                  
+        font-size: 24px;
+        color: chocolate;
+    }
+    .head-wrapper{
+        display: flex;
+    }
+   
+}
+@media(min-width:1200px){
+    .head h2{
+        font-size: 60px;
+        font-weight: 700;
+        color: green; 
+    }
+    .head h1{                                                                  
+        font-size: 24px;
+        color: green;
+    }
+    .head-wrapper{
+        display: flex;
+    }
+   
+}
+
+
+
+
