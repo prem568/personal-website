@@ -8,6 +8,10 @@
         font-size: 34px;
         color:red;
     }
+    .icofont-tags {
+        color: black;
+        display: none;
+    }
    
 }
 @media(min-width:768px){
@@ -19,7 +23,48 @@
         font-size: 40px;
         color: cyan; 
     }
-   
+    .head-wrapper{
+        display: flex;
+    }
+    .skill ul {
+        display: flex;
+    }
+    .skill-progress {
+        display: flex;
+    }
+    .skilled-1,
+    .skilled-2{
+          margin-left: 120px;
+    }
+    .skill-1,
+    .skill-2{
+        display: flex;
+    }
+    .circles{
+        display: flex;
+    }
+    .card-type-wrapper{
+        display: flex;
+
+    }
+    .type-1,
+    .type-2,
+    .type-3,
+    .type-4{
+        max-width: 160px;
+    }
+    .type-1{
+        margin: 30px 16px 0px 20px;
+        padding: 0px 26px;
+    }
+    .type-2{
+        margin: 30px 16px 0px 20px;
+        padding: 0px 35px 6px 10px;
+    }
+    .phone {
+        margin: 83px 29px 0px;
+        display: flex;
+    }
 }
 @media(min-width:992px){
     .head h2{
@@ -32,6 +77,44 @@
         color: chocolate;
     }
     .head-wrapper{
+        display: flex;
+    }
+    .skill ul {
+        display: flex;
+    }
+    .skill-progress {
+        display: flex;
+    }
+    .skilled-1,
+    .skilled-2{
+          margin-left: 120px;
+    }
+    .skill-1,
+    .skill-2{
+        display: flex;
+    }
+    .circles{
+        display: flex;
+    }
+    .card-type-wrapper{
+        display: flex;
+    }
+    .type-1,
+    .type-2,
+    .type-3,
+    .type-4{
+        max-width: 160px;
+    }
+    .type-1{
+        margin: 30px 16px 0px 20px;
+        padding: 0px 26px;
+    }
+    .type-2{
+        margin: 30px 16px 0px 20px;
+        padding: 0px 35px 6px 10px;
+    }
+    .phone {
+        margin: 83px 29px 0px;
         display: flex;
     }
    
@@ -49,7 +132,45 @@
     .head-wrapper{
         display: flex;
     }
-   
+    .skill-progress {
+        display: flex;
+    }
+    .skill-1,
+    .skill-2{
+        display: flex;
+    }
+    .skill-progress {
+        display: flex;
+    }
+   .skilled-1,
+   .skilled-2{
+         margin-left: 120px;
+   }
+   .circles{
+    display: flex;
+}
+.card-type-wrapper{
+    display: flex;    
+}
+.type-1,
+.type-2,
+.type-3,
+.type-4{
+    max-width: 160px;
+}
+.type-1{
+    margin: 30px 16px 0px 20px;
+    padding: 0px 26px;
+}
+.type-2{
+    margin: 30px 16px 0px 20px;
+    padding: 0px 35px 6px 10px;
+}
+.phone {
+    margin: 83px 29px 0px;
+    display: flex;
+}
+
 }
 
 

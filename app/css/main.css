@@ -4,33 +4,24 @@ body{
     letter-spacing: .5px;
     font-family: 'Roboto', sans-serif;
     background-color: #cccccc;
-    margin: 2s5px;
+    margin: 10px;
     display: inline-block; 
     box-sizing: inherit;
-    height: 1500;
-  
-}
-.bodys{
-    display: flex;
+    height: 1500px;
 }
 .container{
     font-family:  roboto, sans-serif;
-   
     background-color: #ffffff;
-   
-  
-}
-.head-wrapper{
-    background-color: #e5e2e854;;
-
 }
 .header{
     margin-bottom: 25px;
 }
+.head-wrapper{
+    background-color: #e5e2e854;
+}
 .head {
     margin: 80px 0px;
 }
-
 .head h2{
     margin-top: 15px;
     padding-top: 25px;
@@ -70,22 +61,27 @@ body{
     margin-top: 30px;
 }
 .about-secton{
-
 }
-.header-wrapper{
-
-}
-.header-wrapper h2{
-    font-size: 40px;
-}
-.header-wrapper p{
-   
+.about-section p{
+    display: block;
+    padding: 0px 15px;
+    font-size: 16px;
+    margin: 0;
 }
 .icon-wrappers{
     color:#2196f3;
     padding-right: 15px;
     padding-left: 15px;
     font-size: 40px;
+}
+.header-wrapper{
+    display: flex;
+    padding: 25px 0px;
+}
+.header-wrapper h2{
+    font-size: 40px;
+}
+.header-wrapper p{
 }
 .type-wrapper{
     display: inline-block;
@@ -116,25 +112,12 @@ body{
     border-bottom: solid 2px #2196f3 ;
     background-color: #f5eded8f;
 }
- .icon-wrapper-1{
-    font-size: 40px;
-    padding-bottom: 45px;
-    color: #2196f3;g
-}
-.icon-wrapper-1 h1{
-    color: sandybrown;
-}
 .type-2{
     max-width: 300px;
     margin: 30px 36px;
     padding: 10px 20px;
     border-bottom: solid 2px #ef5350;
     background-color: #f5eded8f;
-}
- .icon-wrapper-2{
-    color: #ef5350;
-    font-size: 40px;
-    padding-bottom: 45px;
 }
 .type-3 {
     max-width: 300px;
@@ -143,11 +126,6 @@ body{
     border-bottom: solid 2px #fbc02d;
     background-color: #f5eded8f;
 }
-.icon-wrapper-3{
-    color: #fbc02d;
-    font-size: 40px;
-    padding-bottom: 45px;
-}
 .type-4 {
     max-width: 300px;
     margin: 30px 36px;
@@ -155,39 +133,29 @@ body{
     border-bottom: solid 2px #ab47bc;
     background-color: #f5eded8f;
 }
+ .icon-wrapper-1{
+    font-size: 40px;
+    padding-bottom: 45px;
+    color: #2196f3;
+}
+.icon-wrapper-2{
+    color: #ef5350;
+    font-size: 40px;
+    padding-bottom: 45px;
+}
+.icon-wrapper-3{
+    color: #fbc02d;
+    font-size: 40px;
+    padding-bottom: 45px;
+}
 .icon-wrapper-4{
     color: #ab47bc;
     font-size: 40px;
     padding-bottom: 45px;
 }
-.header-wrapper{
-    display: flex;
-    padding: 25px 0px;
+.icon-wrapper-1 h1{
+    color: sandybrown;
 }
-.about-section p{
-    display: block;
-    padding: 0px 15px;
-    font-size: 16px;
-    margin: 0;
-}
-.tables{
-    margin: 0px 15px;
-}
-.table {
-    margin: 20px;
-}
-.circle {
-    height: 120px;
-    width: 120px;
-    float: left;
-    position: relative;
-    margin-right: 20px;
-}
-canvas{
-    display: inline-block;
-    vertical-align: baseline;
-}
-
 .personal-details{
     background-color: #ffffff;
 }
@@ -196,6 +164,12 @@ canvas{
 }
 .personal-details td{
     padding: 5px 7px;
+}
+.tables{
+    margin: 0px 15px;
+}
+.table {
+    margin: 20px;
 }
 .section{
     background-color: #2196f3;
@@ -212,19 +186,27 @@ canvas{
     background-color:#ffffff;
     padding: 20px 0px;
     margin: 10px 69px;
-   
 }
 .button a{
     color: black;
     text-decoration: none;
 }
-
-
+.circle {
+    height: 120px;
+    width: 120px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
+canvas{
+    display: inline-block;
+    vertical-align: baseline;
+}
 .skill{
 
 }
-.icofont-tags{
-    color: black;
+.icofont-tags {
+   display: none;
 }
 .skill h1{
     font-size: 40px;
@@ -236,19 +218,20 @@ canvas{
 }
 .skill p{
     margin: 0px 15px 20px 15px;
-
 }
-.skill li{
-    list-style: none;
-}
-.skill ul{
-  display: flex;
-  padding: 10px 40px;
-  text-align: center;
+.ul{
+    display: flex;
 }
 .skill-ul-li{
     width: 80%;
-    display: table;
+}
+.skill ul{
+    display: flex;
+    padding: 10px 10px;
+    text-align: center;
+}
+.skill li{
+    list-style: none;
 }
 .skill li a{
     width: 30px;
@@ -257,10 +240,9 @@ canvas{
     text-align: left;
     line-height: 53px;
     padding-right: 30px;
-
 }
 .graphicdesign{
-    background-color: #cccccc;
+    background-color: #cccccc75;
     margin: 20px 40px;
 }
 .title{
@@ -333,7 +315,7 @@ canvas{
     float: right;
     margin-top: -26px;
     margin-right: 40px;
-
+    font-weight: 600;
   
    
 }
@@ -342,27 +324,28 @@ canvas{
     float: right;
     margin-top: -26px;
     margin-right: 127px;
-
+    font-weight: 600;
 }
 .php-color{
     color: #ef5350;
     float: right;
     margin-top: -26px;
     margin-right: 102px;
-
+    font-weight: 600;
 }
 .html5-color{
     color: #3f51b5;
     float: right;
     margin-top: -26px;
     margin-right: 195px;
+    font-weight: 600;
 }
 .css3-color{
     color: #fbc02d;
     float: right;
     margin-top: -26px;
     margin-right: 130px;
-
+    font-weight: 600;
 }
 .marketing-color{
     color: #ab47bc;
@@ -370,7 +353,7 @@ canvas{
     margin-top: -26px;
     margin-right: 80px;
     margin-bottom: 30px;
-
+    font-weight: 600;
 }
 .language-skill{
     margin-top: 80px;
@@ -380,26 +363,22 @@ canvas{
 }
 .languages h2{
     padding-left: 15px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;   
 }
-
 .comman-color{
     color: blue;
     padding-left: 15px;
-
 }
 .first-circle{
     margin-top: 20px;
-
 } 
 .second-circle{
-
+    margin-top: 20px;
 }
 .third-circle{
-
+    margin-top: 20px;
 }
-.strong{
+.strongs{
 
 }
 
@@ -520,13 +499,13 @@ canvas{
     background-color: #cccccc;
     max-width: 270px;
     padding: 19px 27px;
-    margin: 15px -40px;
+    margin: 15px 15px;
 }
 .email{
     background-color: #cccccc;
     max-width: 270px;
     padding: 19px 30px;
-    margin: 30px -40px;
+    margin: 30px 15px;
 }
 .email p{
     padding: 0px 5px;
@@ -536,7 +515,7 @@ canvas{
     background-color: #cccccc;
     max-width: 270px;
     padding: 19px 30px;
-    margin: 15px -40px;
+    margin: 15px 15px;
 }
 .address p{
     padding: 0px 5px;
