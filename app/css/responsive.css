@@ -1,27 +1,31 @@
 
 @media(min-width:480px){
+    .container{
+        width: 300px;
+    }
     .head h2{
-        color: red;
-        font-size: 40px;
+        font-size: 60px;
     }
     .head h1{
-        font-size: 34px;
-        color:red;
+        font-size: 32px;
     }
     .icofont-tags {
         color: black;
-        display: none;
-    }
-   
+        padding-left: 70px;
+    }  
 }
 @media(min-width:768px){
+    .container{
+        width: 600px;
+    }
     .head h2{
-        font-size: 60px;
-        color:cyan;
+        font-size: 60px;  
     }  
     .head h1{
-        font-size: 40px;
-        color: cyan; 
+        font-size: 34px;
+    }
+    .head p{
+        font-size: 18px;
     }
     .head-wrapper{
         display: flex;
@@ -36,30 +40,14 @@
     .skilled-2{
           margin-left: 120px;
     }
-    .skill-1,
-    .skill-2{
+    .cards-typers-wrappers{
         display: flex;
     }
-    .circles{
-        display: flex;
-    }
-    .card-type-wrapper{
-        display: flex;
-
-    }
-    .type-1,
     .type-2,
     .type-3,
     .type-4{
         max-width: 160px;
-    }
-    .type-1{
-        margin: 30px 16px 0px 20px;
-        padding: 0px 26px;
-    }
-    .type-2{
-        margin: 30px 16px 0px 20px;
-        padding: 0px 35px 6px 10px;
+        padding: 30px 30px 30px 30px;
     }
     .phone {
         margin: 83px 29px 0px;
@@ -67,14 +55,18 @@
     }
 }
 @media(min-width:992px){
+    .container{
+        width: 900px;
+    }
     .head h2{
         font-size: 60px;
         font-weight: 700;
-        color: chocolate; 
     }
     .head h1{                                                                  
-        font-size: 24px;
-        color: chocolate;
+        font-size: 40px;
+    }
+    .head p{
+        font-size: 18px;
     }
     .head-wrapper{
         display: flex;
@@ -82,21 +74,11 @@
     .skill ul {
         display: flex;
     }
-    .skill-progress {
-        display: flex;
-    }
     .skilled-1,
     .skilled-2{
           margin-left: 120px;
     }
-    .skill-1,
-    .skill-2{
-        display: flex;
-    }
-    .circles{
-        display: flex;
-    }
-    .card-type-wrapper{
+    .cards-typers-wrappers{
         display: flex;
     }
     .type-1,
@@ -104,42 +86,55 @@
     .type-3,
     .type-4{
         max-width: 160px;
+        padding: 30px 30px 30px 30px;
     }
-    .type-1{
-        margin: 30px 16px 0px 20px;
-        padding: 0px 26px;
-    }
-    .type-2{
-        margin: 30px 16px 0px 20px;
-        padding: 0px 35px 6px 10px;
-    }
+    .type-wrapper {
+        display: inline-block;
+        margin-left: 150px;
+    } 
     .phone {
         margin: 83px 29px 0px;
         display: flex;
     }
-   
+    .sections{
+        margin: 24px 0px;
+    }
+    .button a {
+        padding: 0px 25px;
+    }
+    .phone-2{
+        flex-direction: column;
+    }
+    .message textarea{
+        height: 80px;
+    }
+    .input-field,
+    .message{
+        width: 100%;
+    }
 }
 @media(min-width:1200px){
+    .container{
+        width: 1100px;
+    }
+    .navi{
+        font-size: 40px;
+    }
     .head h2{
-        font-size: 60px;
+        font-size: 80px;
         font-weight: 700;
-        color: green; 
+    }
+    .head p{
+        font-size: 20px;
     }
     .head h1{                                                                  
-        font-size: 24px;
-        color: green;
+        font-size: 40px; 
     }
     .head-wrapper{
         display: flex;
     }
-    .skill-progress {
-        display: flex;
-    }
     .skill-1,
     .skill-2{
-        display: flex;
-    }
-    .skill-progress {
         display: flex;
     }
    .skilled-1,
@@ -148,31 +143,38 @@
    }
    .circles{
     display: flex;
-}
+   }
 .card-type-wrapper{
     display: flex;    
+}
+.cards-typers-wrappers{
+    display: flex;
 }
 .type-1,
 .type-2,
 .type-3,
 .type-4{
     max-width: 160px;
+    padding: 30px 30px 30px 30px;
 }
-.type-1{
-    margin: 30px 16px 0px 20px;
-    padding: 0px 26px;
-}
-.type-2{
-    margin: 30px 16px 0px 20px;
-    padding: 0px 35px 6px 10px;
+.type-wrapper {
+    display: inline-block;
+    margin-left: 100px;
 }
 .phone {
     margin: 83px 29px 0px;
     display: flex;
 }
-
+.contact-form h1{
+    font-size: 16px;
+    line-height: 24px;
 }
-
-
-
-
+.sections{
+    display: inline-flex;
+    margin: 24px 0px;
+    margin-left: 100px;
+}
+.button a {
+    padding: 0px 25px;
+}
+}
