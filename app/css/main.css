@@ -10,6 +10,7 @@ body{
     background-color: #8080805c;
     padding: 10px 25px;
     box-sizing: inherit; 
+    overflow-x : hidden;
 }
 .navi{
     list-style: none;
@@ -481,7 +482,12 @@ body{
 }
 .collis{
     display: inline-flex;
-    margin-right: 400px;
+    margin-right: 492px;
+    margin-left: 200px;
+}
+.common-color{
+    color:  #2196f3;
+    margin-left: 468px;
 }
 .testomonial-image h2{
     margin-left: 10px;
