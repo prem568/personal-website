@@ -1,10 +1,13 @@
+* {
+    box-sizing: border-box;
+
+}
 body{  
   
     line-height: 1.625;
     letter-spacing: .5px;
     font-family: 'Roboto', sans-serif;
-    background-color: gray;
-    margin: 10px 100px;
+    background-color: #8080805c;
     padding: 10px 25px;
     box-sizing: inherit; 
 }
@@ -15,14 +18,16 @@ body{
     padding: 10px 0px;
 }
 .navi li{
-    padding: 10px 10px 10px 10px;
-    background-color: #fff;
-    text-decoration: none;
-    list-style: none;
+    padding: 10px 6px;
+    background-color: #ffffff;
+    
 }
 .container{
     font-family:  roboto, sans-serif;
     background-color: #ffffff;
+   
+    margin: auto;
+    box-sizing: inherit;
 }
 .header{
     margin-bottom: 25px;
@@ -31,7 +36,7 @@ body{
     background-color: #e5e2e854;
 }
 .images{
-    margin-left: 90px;
+    margin-left: 40px;
     margin-top: 40px;
     padding-bottom: 30px;
 }
@@ -91,7 +96,7 @@ body{
 .header-wrapper{
     display: flex;
     padding: 25px 0px;
-    margin-top: 95px;
+    margin-top: 50px;
     margin-bottom: 9px;
 }
 .header-wrapper h2{
@@ -192,17 +197,14 @@ body{
 .button{
     background-color:#ffffff;
     padding: 10px 0px;
-    margin: 7px -13px;  
+    margin: 7px 0px;  
 }
 .button a{
     color: black;
     font-size: 25px;
     text-decoration: none;
 }
-.canvas{
-    display: inline-block;
-    vertical-align: baseline;
-}
+
 .skill{
     margin: 10px 0px;
 }
@@ -246,11 +248,11 @@ body{
 }
 .graphicdesign{
     background-color: #cccccc75;
-    margin: 20px 70px;
+    margin: 20px 30px;
     display: inline-block;
 }
 .title{
-    margin: 0 140px;
+    margin: 0 30px;
     padding: 30px 40px;
 }
 .tittle{
@@ -402,23 +404,23 @@ body{
 }
 .icons1{
     color: #2196f3;
-   
+    margin-left: 40px;
 }
 .icons2{
     color: #26a69a;
-   
+    margin-left: 50px;
 }
 .icons3{
     color: #ef5350;
-   
+    margin-left: 210px;
 }
 .icons4{
     color: #fbc02d;
-    
+    margin-left: 80px;
 }
 .icons5{
     color: #ab47bc;
-  
+    margin-left: 140px;
 }
 .icons1,
 .icons2,
@@ -451,22 +453,15 @@ body{
 .strong{
     color: black;
 }
-.contact-me{
-    width: 100%;
-    display: table;
-    text-align: left;
-    position: relative;
-    margin-bottom: 60px;
-}
+
 .portfolio-wrapper{
     margin: 0 15px;
 }
 .header-image{
-    max-width: 360px;
+    max-width: 315px;
 }
 .submitfors{
     width: 230px;
-    margin-left: 420px;
     font-size: 18px;
     line-height: 70px;
     text-align: center;
@@ -506,12 +501,19 @@ body{
 }
 .overlay{
     background-color: rgba(255, 255, 255, 0.1);  
+}.contact-me{
+    width: 100%;
+   
+    text-align: left;
+    position: relative;
+    margin-bottom: 60px;
 }
+
 .contact-me p{
     font-size: 14px;
 }
 .phone{
-    margin: 80px 20px;
+    
     padding: 20px;
     
 }
@@ -555,8 +557,8 @@ body{
     color: #2196f3;;
 }
 .phone-2{
-    position: absolute;
-    width: 110%;
+  
+  
     padding: 0 20px;
 }
 .contacts{
@@ -581,9 +583,6 @@ body{
     text-decoration: none;
     color: black;
 }
-.require{
-    margin-left: 10px;
-}
 .input-field{
     flex-direction: column;
 }
@@ -591,7 +590,7 @@ body{
 .message{
     width: 92%;
 }
-.message{
+.style{
     margin: 0px;
     width: 380px;
     height: 100px;
@@ -614,6 +613,10 @@ body{
     margin-top: 60px;
     margin-bottom: 20px;
 }
+
+
+
+
 .footers{
     padding: 20px 30px;
 }
@@ -621,10 +624,12 @@ body{
     color:  #2196f3;
 }
 .iconss-wrappers{
+    display: inline-block;
     font-size: 60px;
 }
 .backtotop{
-    right: 0px;
+   
     position: absolute;
-    margin: -85px 150px;
+    right: 141px;
+    margin: -83px 0 0 0;
 }
