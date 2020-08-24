@@ -11,10 +11,18 @@
         color: black;
         padding-left: 70px;
     }  
-
+    .type-1,
+    .type-2,
+    .type-3,
+    .type-4{
+        max-width: 500px;
+        padding: 30px 30px 30px 30px;
+        margin-left: 46px;
+    }
+   
 }
 @media(min-width:768px){
-  
+   
     .head h2{
         font-size: 60px;  
     }  
@@ -58,7 +66,7 @@
     }
 }
 @media(min-width:992px){
-   
+  
     .head h2{
         font-size: 60px;
         font-weight: 700;
@@ -124,9 +132,9 @@
     }
 }
 @media(min-width:1200px){
-    
+   
     .navi{
-        font-size: 40px;
+        font-size: 35px;
     }
     .head h2{
         font-size: 80px;
