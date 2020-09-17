@@ -131,7 +131,7 @@ margin-bottom: 40px;
     transition: 0.5s;
 }
 .navi-wrapper ul{
-    margin-left: 0 auto;
+    margin-left: auto;
 }
 .right-side-body{
     margin: 40px 60px;
@@ -766,6 +766,7 @@ margin-bottom: 40px;
     height: 212px;
 }
 .submitform{
+    cursor: pointer;
     padding: 10px 40px;
     margin-top: 60px;
     margin-bottom: 20px;
