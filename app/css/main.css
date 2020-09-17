@@ -15,13 +15,12 @@ body{
     top: 60px;
     bottom: 0;
     float: left;
-    min-height: 100%;
+    min-height: 120%;
     margin-top: 10px;
     margin-left: 30px;
     width: 24%;
     background-color: #ffffff;
     box-shadow: 0px 10px 10px 0px #7d797954;
-
 }
 .bodyimages .body12{
     padding: 80px 0px;
@@ -66,8 +65,7 @@ body{
 }
 .social-btn li{
     margin: 5px;
-    font-size: 18px;
-   
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     width: 35px;
     height: 35px;
@@ -96,7 +94,7 @@ body{
     margin-top: 40px;
 }
 .custom-btn{
-width: 230px;
+cursor: pointer;
 color: #ffffff;
 font-size: 25px;
 line-height: 70px;
@@ -105,17 +103,11 @@ display: inline-block;
 background-color: #2196f3;
 text-transform: capitalize;
 text-decoration: none;
-padding-left: 20px;
-margin-left: 20px;
+margin-left: 60px;
 margin-bottom: 40px;
 }
-
 .header{
     margin-bottom: 25px;
-    position: ;
-}
-.navi12{
-
 }
 .navi{
     text-align: center;
@@ -125,11 +117,24 @@ margin-bottom: 40px;
     padding: 10px 0px;
 }
 .navi li{
-    padding: 10px 6px;
+    display: inline-flex;
+    padding: 10px 0px;
     background-color: #ffffff;
 } 
+.navi li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.navi li a:hover{
+    background-color:#2196f3;
+    transition: 0.5s;
+}
 .navi-wrapper ul{
-    margin-left: 26px;
+    margin-left: 0 auto;
+}
+.right-side-body{
+    margin: 40px 60px;
 }
 .container{
     font-family:  roboto, sans-serif;
@@ -170,10 +175,8 @@ margin-bottom: 40px;
     padding-left: 30px;
     margin-bottom: 20px;
 }
-.cta{
-    padding-left: 15px;
-}
-.cta a{
+.cta {
+    cursor: pointer;
     color: #ffffff;
     font-size: 18px;
     padding: 15px 55px;
@@ -188,7 +191,9 @@ margin-bottom: 40px;
     border-radius: 50%;
     margin: auto;
     margin-top: 40px;
-    
+}
+.aboutp{
+    font-size: 20px;
 }
 .about-section p{
     display: block;
@@ -305,19 +310,17 @@ margin-bottom: 40px;
 }
 .buttons{
     text-align: center;
+    margin-top: 47px;
+    margin-bottom: 30px;
 }
 .button{
+    cursor: pointer;
     background-color:#ffffff;
     padding: 10px 0px;
     margin: 7px 0px;  
-}
-.button a{
     color: black;
     font-size: 25px;
     text-decoration: none;
-}
-.skilled-tittle{
-
 }
 .skill{
     margin: 10px 0px;
@@ -361,16 +364,13 @@ margin-bottom: 40px;
     padding-right: 30px;
 }
 .graphic-1{
-    
     display: block;
 }
 .graphicdesign{
     background-color: #cccccc75;
-    margin: 20px 30px;
     display: inline-block;
 }
-.title{
- 
+.title{ 
     padding: 30px 40px;
     display: inline-block;
 }
@@ -482,9 +482,20 @@ margin-bottom: 40px;
 .lang{
     font-size: 24px;
 }
-.strongs{
-    margin: 50px 0 0 -86px;
+.strongs1{
+    margin: 45px 0 0 -90px;
     position: absolute;
+    font-size: 20px;
+}
+.strongs2{
+    margin: 45px 0 0 -105px;
+    position: absolute;
+    font-size: 20px;
+}
+.strongs3{
+    margin: 45px 0 0 -96px;
+    position: absolute;
+    font-size: 20px;
 }
 .languages h2{
     padding-left: 15px;
@@ -500,8 +511,6 @@ margin-bottom: 40px;
 } 
 .education-skill{
     padding: 0px 30px;
-}
-.education-skill h2{
 }
 .education-skill p{
     padding-left: 15px;
@@ -527,19 +536,19 @@ margin-bottom: 40px;
 }
 .icons2{
     color: #26a69a;
-    margin-left: 50px;
+    margin-left: 53px;
 }
 .icons3{
     color: #ef5350;
-    margin-left: 210px;
+    margin-left: 250px;
 }
 .icons4{
     color: #fbc02d;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 .icons5{
     color: #ab47bc;
-    margin-left: 140px;
+    margin-left: 167px;
 }
 .icons1,
 .icons2,
@@ -547,9 +556,7 @@ margin-bottom: 40px;
 .icons4,
 .icons5{
     min-width: 10px;
-
 }
-
 .active{
     list-style: none;
 }
@@ -572,7 +579,6 @@ margin-bottom: 40px;
 .strong{
     color: black;
 }
-
 .portfolio-wrapper{
     margin: 0 15px;
 }
@@ -580,7 +586,12 @@ margin-bottom: 40px;
     text-align: center;
 }
 .header-image{
-    max-width: 330px;
+    max-width: 290px;
+}
+.image-wrapper img:hover{
+    transform: scale(1.1); 
+    z-index: 0;
+    transition: all .4s;
 }
 .submitfors{
     width: 230px;
@@ -603,7 +614,8 @@ margin-bottom: 40px;
 }
 .collis{
     display: inline-flex;
-    margin-right: 400px;
+    margin-right: 50px;
+    background-color: #cccccc66;
 }
 .collish2{
     margin-left: 10px;
@@ -612,6 +624,7 @@ margin-bottom: 40px;
     margin-bottom: 25px;
 }
 .common-color{
+    cursor: pointer;
     color:  #2196f3;
     margin-left: 10px;
 }
@@ -632,22 +645,33 @@ margin-bottom: 40px;
     text-align: center;
 }
 .overlay{
-    background-color: rgba(255, 255, 255, 0.1);  
-}.contact-me{
+    cursor: pointer;
+}
+.overlay a{
+    padding: 0px 20px;
+}
+.overlay li{
+    text-decoration: none;
+    display: inline-flex;
+    text-align: center;
+    border-right: 2px solid #cccccc;
+}
+.overlay li img:hover{
+    transform: scale(1.1); 
+    z-index: 0;
+    transition: all .4s;
+}
+.contact-me{
     width: 100%;
-   
     text-align: left;
     position: relative;
     margin-bottom: 60px;
 }
-
 .contact-me p{
     font-size: 14px;
 }
 .phone{
-    
     padding: 20px;
-    
 }
 .phones h2{
     font-size: 16px;
@@ -661,7 +685,7 @@ margin-bottom: 40px;
 }
 .phones{
     background-color: #cccccc45;
-    max-width: 270px;
+    max-width: 280px;
     padding: 19px 27px;
     margin: 15px 15px;
     box-shadow: 6px 6px 12px 6px #7d797945;
@@ -692,8 +716,6 @@ margin-bottom: 40px;
     color: #2196f3;;
 }
 .phone-2{
-  
-  
     padding: 0 20px;
 }
 .contacts{
@@ -702,7 +724,7 @@ margin-bottom: 40px;
 .contact-form{
     background-color: #2196f3;
     max-width: 400px;
-    margin: 0 auto;
+    margin: auto 47px;
     border-radius: 5px;
     padding: 30px;
 }
@@ -715,6 +737,7 @@ margin-bottom: 40px;
     margin-bottom: 30px;
 }
 .form{
+    cursor: pointer;
     text-decoration: none;
     color: black;
 }
@@ -738,7 +761,6 @@ margin-bottom: 40px;
     border-bottom: 2px solid #c5ecfd;
     padding: 10px;
     width: 100%;
-    color:  #2196f3;
 }
 .message.testarea{
     height: 212px;
@@ -748,10 +770,9 @@ margin-bottom: 40px;
     margin-top: 60px;
     margin-bottom: 20px;
 }
-
-
-
-
+.footer-section{
+    margin: 0px 60px;
+}
 .footers{
     padding: 20px 30px;
 }
@@ -765,6 +786,6 @@ margin-bottom: 40px;
 .backtotop{
    
     position: absolute;
-    right: 141px;
+    right: 80px;
     margin: -83px 0 0 0;
-}
+} 

@@ -1,15 +1,27 @@
 
 @media(min-width:480px){
-   
+    .custom-btn {
+        margin-left: 0px;
+        display: block;
+    }
+    .headers h2 {
+        font-size: 10px;
+    }
+    .headers p {
+        font-size: 8px;
+    }
     .head h2{
         font-size: 60px;
     }
     .head h1{
         font-size: 32px;
     }
+    .cta2{
+        display: none;
+    }
     .icofont-tags {
         color: black;
-        padding-left: 70px;
+        padding-left: 40px;
     }  
     .type-1,
     .type-2,
@@ -19,10 +31,26 @@
         padding: 30px 30px 30px 30px;
         margin-left: 46px;
     }
-   
+    .testomonial-images{
+        padding-left: 20px;
+    }
 }
 @media(min-width:768px){
-   
+    .navi li a{
+        font-size: 21px;
+        padding: 4px;
+        display: block;
+    }
+    .custom-btn{
+        margin-left: 0px;
+        display: block;
+    }
+    .headers h2 {
+        font-size: 15px;
+    }
+    .headers p {
+        font-size: 12px;
+    }
     .head h2{
         font-size: 60px;  
     }  
@@ -38,11 +66,16 @@
     .header-wrapper h2{
         font-size: 20px;
     }
+    .graphicdesign{
+        margin-left: 5px;
+        display: inline-block;
+    }
     .skill ul {
         display: flex;
     }
     .skill-progress {
         display: flex;
+        margin-left: -60px;
     }
     .skilled-1,
     .skilled-2{
@@ -65,8 +98,23 @@
         display: inline-block;
     }
 }
-@media(min-width:992px){
-  
+@media(min-width:992px){ 
+    .navi li a{
+        font-size: 27px;
+        padding: 4px;
+        display: block;
+    }
+    .custom-btn{
+            margin-left: 0px;
+            display: block;
+            margin: 0 50px; 
+    }
+    .headers h2 {
+        font-size: 20px;
+    }
+    .headers p {
+        font-size: 18px;
+    }
     .head h2{
         font-size: 60px;
         font-weight: 700;
@@ -85,6 +133,10 @@
     }
     .icon-wrappers{
         font-size: 40px;
+    }
+    .graphicdesign{
+        margin-left: 30px;
+        display: inline-block;
     }
     .skill ul {
         display: flex;
@@ -116,6 +168,7 @@
     }
     .sections{
         margin: 24px 0px;
+        margin-left: -115px;
     }
     .button a {
         padding: 0px 25px;
@@ -132,9 +185,20 @@
     }
 }
 @media(min-width:1200px){
-   
-    .navi{
-        font-size: 35px;
+    .navi li a{
+        font-size: 34px;
+        padding: 9px;
+        display: block;
+    }
+    .custom-btn{
+        margin: 0px 50px; 
+        display: block;
+    }
+    .headers h2 {
+        font-size: 30px;
+    }
+    .headers p {
+        font-size: 18px;
     }
     .head h2{
         font-size: 80px;
@@ -146,15 +210,21 @@
     .head h1{                                                                  
         font-size: 40px; 
     }
+    .cta2{
+        display: inline-flex;
+    }
     .head-wrapper{
         display: flex;
     }
-    
     .header-wrapper h2{
         font-size: 40px;
     }
     .icon-wrappers{
         font-size: 40px;
+    }
+    .graphicdesign{
+        margin-left: 100px;
+        display: inline-block;
     }
     .skill-1,
     .skill-2{
@@ -163,44 +233,52 @@
     .skill h1{
         font-size: 40px;
     }
-   .skilled-1,
-   .skilled-2{
-         margin-left: 120px;
-   }
-   .circles{
-    display: flex;
-   }
-.card-type-wrapper{
-    display: flex;    
-}
-.cards-typers-wrappers{
-    display: flex;
-}
-.type-1,
-.type-2,
-.type-3,
-.type-4{
-    max-width: 160px;
-    padding: 30px 30px 30px 30px;
-}
-.type-wrapper {
-    display: inline-block;
-    margin-left: 100px;
-}
-.phone {
-    margin: 83px 29px 0px;
-    display: flex;
-}
-.contact-form h1{
-    font-size: 16px;
-    line-height: 24px;
-}
-.sections{
-   
-    margin: 24px 0px;
-    margin-left: 100px;
-}
-.button a {
-    padding: 0px 25px;
-}
+    .skilled-1,
+    .skilled-2{
+            margin-left: 120px;
+    }
+    .circles{
+        display: flex;
+    }
+    .card-type-wrapper{
+        display: flex;    
+    }
+    .cards-typers-wrappers{
+        display: flex;
+    }
+    .type-1,
+    .type-2,
+    .type-3,
+    .type-4{
+        max-width: 160px;
+        padding: 30px 30px 30px 30px;
+    }
+    .type-wrapper {
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .phones12{
+        font-size: 18px;
+    }
+    .phone {
+        margin: 83px 29px 0px;
+        display: flex;
+    }
+    .email12 p{
+        font-size: 18px;
+    }
+    .address12 p{
+        font-size: 18px;
+    }
+    .contact-form h1{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .sections{
+        margin: 24px 0px;
+        margin-left: 120px;
+    }
+    .button a {
+        padding: 0px 25px;
+    }
 }
