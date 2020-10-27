@@ -1,5 +1,9 @@
 
 @media(min-width:480px){
+    .container{
+        width: 500px;
+        margin-right: 10px;
+    }
     .custom-btn {
         margin-left: 0px;
         display: block;
@@ -23,6 +27,17 @@
         color: black;
         padding-left: 40px;
     }  
+    .icons-wrappers{
+        display: block;
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+    .graphic-1{
+        display: block;
+        margin-left: 90px;
+        margin-right: 40px;
+    }
+    
     .type-1,
     .type-2,
     .type-3,
@@ -31,19 +46,46 @@
         padding: 30px 30px 30px 30px;
         margin-left: 46px;
     }
-    .testomonial-images{
-        padding-left: 20px;
+    .personal-details{
+        margin-left: 100px;
     }
+    .testomonial-images{
+        padding-left: 38px;
+    }
+    textarea{
+        width: 50px;
+    }
+    .phone-2{
+        margin-left: 10px;
+        width: 500px;
+    }
+    .footer-section{
+        margin: 0px 0px 0px 0px;
+    }
+    .backtotop{
+        position: absolute;
+        right: 0px;
+        margin: -83px 0 0 0;
+    } 
 }
 @media(min-width:768px){
+    .container{
+        width: 768px;
+        margin-right: 40px;
+    }
+    .navi12{
+        display: inline;
+    }
     .navi li a{
-        font-size: 21px;
-        padding: 4px;
-        display: block;
+        font-size: 19px;
+        margin: auto;
+        padding: 21px;
+        display: inline-block;
     }
     .custom-btn{
         margin-left: 0px;
         display: block;
+        
     }
     .headers h2 {
         font-size: 15px;
@@ -59,7 +101,7 @@
     }
     .head p{
         font-size: 18px;
-    }
+    }.bodyimages
     .head-wrapper{
         display: flex;
     }
@@ -67,8 +109,12 @@
         font-size: 20px;
     }
     .graphicdesign{
-        margin-left: 5px;
+        width: 587px;
         display: inline-block;
+    }
+    .skill ul {
+        margin-left: 10px;
+        text-align: center;
     }
     .skill ul {
         display: flex;
@@ -79,14 +125,24 @@
     }
     .skilled-1,
     .skilled-2{
-          margin-left: 68px;
+          margin-left: 100px;
     }
     .skill h1{
         font-size: 20px;
     }
     .cards-typers-wrappers{
         display: flex;
+        margin-left: 150px;
     }
+    .icons-wrappers{
+        display: block;
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+    .type-wrapper {
+        display: inline-block;
+        margin-left: -104px;
+    } 
     .type-2,
     .type-3,
     .type-4{
@@ -97,17 +153,41 @@
         margin: 83px 29px 0px;
         display: inline-block;
     }
+    .phone-2{
+        margin-right: 10px;
+        width: 500px;
+    }
+    .backtotop{
+        position: absolute;
+        right: 80px;
+        margin: -83px 0 0 0;
+    } 
 }
-@media(min-width:992px){ 
+@media(min-width:927px){ 
+    .container{
+        width: 1080px;
+        margin-right: 0px;
+    }
+    .navi-wrapper{
+        margin-left: 460px;
+    }
+
+    .navi12{
+        display: inline;
+    }
     .navi li a{
-        font-size: 27px;
-        padding: 4px;
-        display: block;
+        font-size: 19px;
+        margin: auto;
+        padding: 9px;
+        display: inline-block;
     }
     .custom-btn{
             margin-left: 0px;
             display: block;
             margin: 0 50px; 
+    }
+    .head-wrapper{
+        padding: 50px;
     }
     .headers h2 {
         font-size: 20px;
@@ -135,8 +215,12 @@
         font-size: 40px;
     }
     .graphicdesign{
-        margin-left: 30px;
+        width: 800px;
         display: inline-block;
+    }
+    .skill ul {
+        margin-left: 10px;
+        text-align: center;
     }
     .skill ul {
         display: flex;
@@ -150,6 +234,7 @@
     }
     .cards-typers-wrappers{
         display: flex;
+        margin-left: 200px;
     }
     .type-1,
     .type-2,
@@ -160,21 +245,22 @@
     }
     .type-wrapper {
         display: inline-block;
-        margin-left: 150px;
+        margin-left: 0px;
     } 
     .phone {
         margin: 83px 29px 0px;
         display: flex;
     }
     .sections{
-        margin: 24px 0px;
-        margin-left: -115px;
+        margin: 24px 0px 0px 90px;
     }
     .button a {
         padding: 0px 25px;
     }
     .phone-2{
         flex-direction: column;
+        margin-left: 100px;
+        width: 500px;
     }
     .message textarea{
         height: 80px;
@@ -183,16 +269,41 @@
     .message{
         width: 100%;
     }
+    .footer-section{
+        margin: 0px 0px 0px 0px;
+    }
+    .backtotop{
+        position: absolute;
+        right: 80px;
+        margin: -83px 0 0 0;
+    } 
 }
 @media(min-width:1200px){
+    .right-side-body{
+        margin: 40px 60px;
+    }       
+    .container{
+        width: 1300px;
+    }
+    .navi-wrapper{
+        margin-left: 280px;
+    }
+
+    .navi12{
+        display: inline;
+    }
     .navi li a{
-        font-size: 34px;
+      
+        margin: auto;
         padding: 9px;
-        display: block;
+        display: inline-block;
     }
     .custom-btn{
         margin: 0px 50px; 
         display: block;
+    }
+    .head-wrapper{
+        padding: 100px;
     }
     .headers h2 {
         font-size: 30px;
@@ -216,6 +327,9 @@
     .head-wrapper{
         display: flex;
     }
+    .about12 {
+        padding: 100px;
+    }
     .header-wrapper h2{
         font-size: 40px;
     }
@@ -223,7 +337,7 @@
         font-size: 40px;
     }
     .graphicdesign{
-        margin-left: 100px;
+      width: 800px;
         display: inline-block;
     }
     .skill-1,
@@ -245,6 +359,13 @@
     }
     .cards-typers-wrappers{
         display: flex;
+        margin-left: -100px;
+    }
+    .collis{
+        margin-right: 80px;
+    }
+    .testomonials-image{
+        max-width: 240px;
     }
     .type-1,
     .type-2,
@@ -281,4 +402,42 @@
     .button a {
         padding: 0px 25px;
     }
+    .footer-section{
+        margin: 0px 60px 0px 0px;
+    }
+    .backtotop{
+        position: absolute;
+        right: 80px;
+        margin: -83px 0 0 0;
+    } 
+}
+@media(min-width:1440px){
+    .container{
+        width: 950px;
+        margin-right: -34px;
+    }
+    .bodyimages .body12{
+        display: block;
+    }
+    .bodyimages{
+        position: sticky;
+        top: 80px;
+        bottom: 0;
+        float: left;
+        display: block;
+        min-height: 120%;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 28%;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 10px 0px #7d797954;
+    }
+    .navi-wrapper{
+        margin-left: 307px;
+    }
+    .footer-section{
+        margin: 0px 60px 0px 0px;
+    }
+
 }
