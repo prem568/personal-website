@@ -184,6 +184,7 @@ body{
     text-decoration: none;
 }
 .header-images{
+    display: none;
     max-width: 300px;
     border-radius: 50%;
     margin: auto;
@@ -365,7 +366,7 @@ body{
     padding-right: 30px;
 }
 .graphicdesign{
-    background-color: #cccccc75;
+    background-color: #ffffff;
     display: inline-block;
     margin: 0px 0px 0px 0px;
 }
@@ -478,7 +479,7 @@ body{
     margin-bottom: 15px;   
 }
 .languages{
-    display: flex;
+    display: inline;
 }
 .strongs1{
     margin: 45px 0 0 -90px;
@@ -494,6 +495,9 @@ body{
     margin: 45px 0 0 -96px;
     position: absolute;
     font-size: 20px;
+}
+.circles{
+    margin-left: 10px;
 }
 .first-circle{
     margin-top: 20px;
@@ -526,23 +530,18 @@ body{
 }
 .icons1{
     color: #2196f3;
-    margin-left: 48px;
 }
 .icons2{
     color: #26a69a;
-    margin-left: 53px;
 }
 .icons3{
     color: #ef5350;
-    margin-left: 245px;
 }
 .icons4{
     color: #fbc02d;
-    margin-left: 118px;
 }
 .icons5{
     color: #ab47bc;
-    margin-left: 178px;
 }
 .icons1,
 .icons2,
@@ -626,8 +625,6 @@ body{
 }
 .slider{
     overflow: hidden;
-    height: 400px;
-   
 }
 .slider figure div{
     float: left;
@@ -733,6 +730,7 @@ body{
     cursor: pointer;
     color:  #2196f3;
     margin-left: 10px;
+    margin-bottom: 50px;
 }
 .testomonials-images{
     width: 100%;
@@ -771,9 +769,6 @@ body{
 }
 .contact-me p{
     font-size: 14px;
-}
-.phone{
-    padding: 20px;
 }
 .phones{
     background-color: #fff5f545;
@@ -824,7 +819,6 @@ body{
 .contact-form{
     background-color: #2196f3;
     max-width: 400px;
-    margin: 0px 30px 0px -40px;
     padding: 40px;
 }
 .contact-form h1{
@@ -877,17 +871,17 @@ textarea{
     text-decoration: none;
     color: black;
 }
-.footer-section{
-    margin: 0px 60px;
-}
 .footers{
     padding: 20px 30px;
+}
+.footers p{
+    font-size: 16px;
 }
 .photoshop{
     color:  #2196f3;
 }
 .iconss-wrappers{
-    display: inline-block;
+    text-decoration: none;
     margin: 16px 22px 0 0px;
     font-size: 40px;
     color: black;
