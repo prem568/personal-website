@@ -1,7 +1,7 @@
 @media(min-width:320px){
     .container{
-        width: 425px;
-        margin: -60px 0 90px 0px;
+        width: 440px;
+        margin: -60px 0 90px -11px;
     }
     .head h2{
         text-align: center;
@@ -141,7 +141,6 @@
     padding: 80px 30px;
 }
 .iconss-wrappers{
-    display: inline-block;
     margin: -104px -66px 0 0px;
     font-size: 38px;
     
