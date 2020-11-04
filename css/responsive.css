@@ -94,8 +94,25 @@
        font-size: 16px;
    }
    .circles{
-    display: flex;
+    display: block;
     margin: 10px 10px 10px -30px;
+   }
+   .circled{
+    width: 163px;
+    text-align: center;
+    margin: 10px 10px 10px 18px;
+   }
+   .circle123{
+       display: flex;
+   }
+   .strongs1{
+    margin: 75px 0 0 -125px;
+   }
+   .strongs2{
+    margin: 75px 0 0 -140px;
+   }
+   .strongs3{
+    margin: 75px 0 0 -125px;
    }
    .education-skill p{
        font-size: 20px;
@@ -198,8 +215,25 @@
         margin-left: 100px;
     }
     .circles{
-        display: flex;
+        display: block;
         margin: 10px 10px 10px 10px;
+       }
+       .circled{
+        width: 163px;
+        text-align: center;
+        margin: 10px 10px 10px 18px;
+       }
+       .circle123{
+           display: flex;
+       }
+       .strongs1{
+        margin: 75px 0 0 -125px;
+       }
+       .strongs2{
+        margin: 75px 0 0 -140px;
+       }
+       .strongs3{
+        margin: 75px 0 0 -125px;
        }
     .testomonial-images{
         padding-left: 38px;
@@ -375,7 +409,7 @@
         margin-right: 0px;
     }
     .navi-wrapper{
-        margin-left: 460px;
+        float: right;
     }
 
     .navi12{
@@ -489,13 +523,13 @@
 }
 @media(min-width:1200px){
     .right-side-body{
-        margin: 40px 60px;
+        margin: 130px 60px;
     }       
     .container{
         width: 1300px;
     }
     .navi-wrapper{
-        margin-left: 280px;
+        float: right;
     }
 
     .navi12{
@@ -606,8 +640,8 @@
         line-height: 24px;
     }
     .sections{
-        margin: 24px 0px;
-        margin-left: 120px;
+        margin: 40px 20px 0 -26px;
+         padding: 36px 50px;
     }
     .button a {
         padding: 0px 25px;
@@ -644,7 +678,7 @@
         box-shadow: 0px 10px 10px 0px #7d797954;
     }
     .navi-wrapper{
-        margin-left: 307px;
+        float: right;
     }
     .footer-section{
         margin: 0px 60px 0px 0px;
