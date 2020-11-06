@@ -3,6 +3,9 @@
         width: 440px;
         margin: -60px 0 90px -11px;
     }
+    .checkbtn{
+        display: block;
+    }
     .head h2{
         text-align: center;
         font-size: 50px;
@@ -52,7 +55,7 @@
     }
     .sections{
         padding: 20px;
-        margin: 10px 10px 10px 10px;
+        margin: 80px 10px 10px 10px;
         font-size: 22px;
     }
     .button{
@@ -76,7 +79,7 @@
         font-size: 20px;
     }
     .graphicdesign{
-        box-shadow: 0px 10px 10px 0px #7d797954;
+        box-shadow: 0px 10px 10px 10px #7d797954;
     }
     .skilled-tittle{
         font-size: 20px;
@@ -127,44 +130,50 @@
    .testomonial-image h2 {
     font-size: 26px;
     margin: 90px 65px 57px 2px;
-}
-.ceo{
-    font-size: 16px;
-}
-.testomonial-image p {
-    margin-left: 3px;
-    font-size: 20px;
-}
-.common-color{
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-.testomonial-images{
-    width: 306px
-}
-.contact-me p {
-    font-size: 17px;
-}
-.phone {
-    max-width: 330px;
-}
-.style {
-    margin: 0px;
-    width: 190px;
-    height: 93px;
-}
-.footers {
-    padding: 80px 30px;
-}
-.iconss-wrappers{
-    margin: -104px -66px 0 0px;
-    font-size: 38px;
-    
-}
-}
+    }
+    .ceo{
+        font-size: 16px;
+    }
+    .testomonial-image p {
+        margin-left: 3px;
+        font-size: 20px;
+    }
+    .overlay li{
+        text-decoration: none;
+        display: inline-flex;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .common-color{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .testomonial-images{
+        width: 306px
+    }
+    .contact-me p {
+        font-size: 17px;
+    }
+    .phone {
+        max-width: 440px;
+    }
+    .style {
+        margin: 0px;
+        width: 190px;
+        height: 93px;
+    }
+    .footers {
+        padding: 80px 30px;
+    }
+    .iconss-wrappers{
+        margin: -104px -66px 0 0px;
+        font-size: 38px;
+        
+    }
+    }
 @media(min-width:480px){
     .container{
-        width: 500px;
+        width: 745px;
         margin-right: 40px;
     }
     .custom-btn {
@@ -182,6 +191,10 @@
     }
     .head h1{
         font-size: 32px;
+    }
+    .cta {
+        margin: 0 0 0 260px;
+        text-align: center;
     }
     .cta2{
         display: none;
@@ -268,16 +281,13 @@
     .navi12{
         display: inline;
     }
-    .navi li a{
-        font-size: 19px;
-        margin: auto;
-        padding: 21px;
-        display: inline-block;
-    }
     .custom-btn{
         margin-left: 0px;
         display: block;
-        
+    }
+    .cta {
+        text-align: center;
+        justify-items: center;
     }
     .headers h2 {
         font-size: 15px;
@@ -312,7 +322,7 @@
         display: flex;
     }
     .skill-progress {
-        display: flex;
+        display: block;
         margin-left: -60px;
     }
     .skilled-1,
@@ -374,10 +384,10 @@
     .testomonials-image{
         max-width: 306px;
         margin: 0 0 0 62px;
-}
-.testomonial-images {
-    width: 162px;
-}
+    }
+    .testomonial-images {
+        width: 162px;
+    }
     .header-image {
         max-width: 330px;
     }
@@ -403,6 +413,7 @@
         padding: 16px 30px;
     }
 }
+
 @media(min-width:927px){ 
     .container{
         width: 1080px;
@@ -421,10 +432,31 @@
         padding: 9px;
         display: inline-block;
     }
+    .checkbtn1{
+        font-size: 30px;
+        color: black;
+        float: left;
+        line-height: 80px;
+        cursor: pointer;
+        display: none;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: black;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
     .custom-btn{
             margin-left: 0px;
             display: block;
             margin: 0 50px; 
+    }
+    .cta {
+        margin: 0 0 0 105px;
+        text-align: center;
     }
     .head-wrapper{
         padding: 50px;
@@ -461,6 +493,10 @@
     .skill ul {
         margin-left: 10px;
         text-align: center;
+    }
+    .skill-progress {
+        display: flex;
+        margin-left: -100px;
     }
     .skill ul {
         display: flex;
@@ -531,7 +567,6 @@
     .navi-wrapper{
         float: right;
     }
-
     .navi12{
         display: inline;
     }
@@ -540,6 +575,23 @@
         margin: auto;
         padding: 9px;
         display: inline-block;
+    }
+    .checkbtn1{
+        font-size: 30px;
+        color: black;
+        float: left;
+        line-height: 80px;
+        cursor: pointer;
+        display: none;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: black;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
     }
     .custom-btn{
         margin: 0px 50px; 
@@ -659,6 +711,23 @@
     .container{
         width: 950px;
         margin-right: -34px;
+    }
+    .checkbtn1{
+        font-size: 30px;
+        color: black;
+        float: left;
+        line-height: 80px;
+        cursor: pointer;
+        display: none;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: black;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
     }
     .bodyimages .body12{
         display: block;

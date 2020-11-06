@@ -110,9 +110,6 @@ body{
     margin: 0px 0px 0px 5px;
     font-family: 'Roboto',sans-serif;
 }
-.navi12{
-    display: none;
-}
 .container{
     font-family: 'Roboto',sans-serif;
     text-transform: capitalize;
@@ -123,20 +120,45 @@ body{
     margin: 10px 0px;
     box-sizing: inherit;
 }
+a.active,a.hover{
+    background: #1b9bff;
+    transition: 2s;
+}
+.checkbtn1{
+    font-size: 30px;
+    color: black;
+    float: left;
+    margin-left: 20px;
+    line-height: 80px;
+    cursor: pointer;
+    display: block;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: block;
+}
+#check{
+    display: none;
+}
 .navi{
     text-align: center;
     line-height: 80px;
-    margin-left: -70px;
+    margin-right: 20px;
+    font-size: 22px;
+    float: right;
     list-style: none;
-    display: flex;
-    font-size: 16px;
 }
 .navi li{
     display: inline-flex;
     background-color: #ffffff;
 } 
 .navi li a{
-    display: inline-block;                                                                                      
+    display: none;                                                                                      
     color: black;
     text-decoration: none;
 }
@@ -175,6 +197,7 @@ body{
 .cta {
     cursor: pointer;
     color: #ffffff;
+    text-align: center;
     font-size: 18px;
     padding: 15px 55px;
     margin: 12px 28px;
@@ -184,7 +207,7 @@ body{
     text-decoration: none;
 }
 .header-images{
-    display: none;
+    display: block;
     max-width: 300px;
     border-radius: 50%;
     margin: auto;
@@ -384,7 +407,7 @@ body{
     margin-bottom: 25px;
 }
 .progress{
-    width: 260px;
+    width: 320px;
     height: 5px;
     border-radius: 0;
     margin-top: 10px;
@@ -505,7 +528,7 @@ body{
 } 
 .comman-color{
     color: blue;
-    padding-left: 15px;
+    padding-left: 27px;
 }
 .education-skill{
     padding: 0px 30px;
@@ -640,7 +663,7 @@ body{
     width: 500%;
     margin: 0px;
     left: 0px;
-    animation: 10s prem infinite;
+    animation: 40s prem infinite;
 
 }
 @keyframes prem{
@@ -750,6 +773,7 @@ body{
 .overlay li{
     text-decoration: none;
     display: inline-flex;
+    padding-right: 30px;
     text-align: center;
     border-right: 2px solid #cccccc;
 }
@@ -773,16 +797,15 @@ body{
 .phones{
     background-color: #fff5f545;
     max-width: 500px;
-    padding: 19px 27px;
+    padding: 35px 27px;
     margin: 15px 15px;
     box-shadow: 6px 6px 12px 6px #7d797945;
 }
-.phones h2{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 700;
-    text-transform: capitalize;
-    font-family: 'Roboto',sans-serif;
+.phones h2,
+.email h2,
+.address h2{
+    font-size: 22px;
+    line-height: 30px;
 }
 .phones tr{ 
     margin: 10px 10px;
@@ -790,7 +813,7 @@ body{
 .email{
     background-color: #fff5f545;
     max-width: 500px;
-    padding: 19px 30px;
+    padding: 35px 30px;
     margin: 30px 15px;
     box-shadow: 6px 6px 12px 6px #7d797945;
 }
@@ -801,7 +824,7 @@ body{
 .address{
     background-color: #fff5f545;
     max-width: 500px;
-    padding: 19px 30px;
+    padding: 35px 30px;
     margin: 15px 15px;
     box-shadow: 6px 6px 12px 6px #7d797945;
 }
@@ -818,7 +841,7 @@ body{
 
 .contact-form{
     background-color: #2196f3;
-    max-width: 400px;
+    max-width: 420px;
     padding: 40px;
 }
 .contact-form h1{
@@ -834,7 +857,7 @@ body{
 }
 .input-field,
 .message{
-    width: 92%;
+    width: 103%;
 }
 .style{
     margin: 0px;
