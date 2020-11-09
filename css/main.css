@@ -344,13 +344,9 @@ a.active,a.hover{
     background-color: #fbc02d;
     margin-right: 65px;
 }
-.php-bg {
+.js-bg {
     background-color: #fb2d2d;
     margin-right: 140px;
-}
-.marketing-bg {
-    background-color: #ab47bc;
-    margin-right: 80px;
 }
 .progress-bar > span{
     right: -4%;
@@ -365,8 +361,7 @@ a.active,a.hover{
     margin-right: 150px;
     font-weight: 600;
 }
-
-.php-color{
+.js-color{
     color: #ef5350;
     float: right;
     margin-top: -26px;
