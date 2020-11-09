@@ -80,6 +80,7 @@
     }
     .graphicdesign{
         box-shadow: 0px 10px 10px 10px #7d797954;
+        margin-left: -32px;
     }
     .skilled-tittle{
         font-size: 20px;
@@ -210,8 +211,7 @@
     }
     .graphic-1{
         display: block;
-        margin-left: 90px;
-        margin-right: 40px;
+        padding: 26px 0 26px 26px;
     }
     .header-images{
         display: block;
@@ -470,12 +470,15 @@
     .head h2{
         font-size: 60px;
         font-weight: 700;
+        margin-left: -150px;
     }
     .head h1{                                                                  
         font-size: 40px;
+        margin-left: -45px;
     }
     .head p{
         font-size: 18px;
+        margin-left: -45px;
     }
     .head-wrapper{
         display: flex;
@@ -538,7 +541,7 @@
     }
     .phone-2{
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 10px;
         width: 500px;
     }
     .message textarea{
@@ -598,7 +601,8 @@
         display: block;
     }
     .head-wrapper{
-        padding: 100px;
+        padding: 50px;
+        display: flex;
     }
     .headers h2 {
         font-size: 30px;
@@ -609,18 +613,18 @@
     .head h2{
         font-size: 80px;
         font-weight: 700;
+        margin-left: -150px;
     }
     .head p{
         font-size: 20px;
+        margin-left: -45px;
     }
     .head h1{                                                                  
         font-size: 40px; 
+        margin-left: -45px;
     }
     .cta2{
         display: inline-flex;
-    }
-    .head-wrapper{
-        display: flex;
     }
     .about12 {
         padding:  50px 100px;
@@ -654,7 +658,7 @@
     }
     .cards-typers-wrappers{
         display: flex;
-        margin-left: -100px;
+        margin-left: -47px;
     }
     .collis{
             margin: 0 -20px 0 -72px;

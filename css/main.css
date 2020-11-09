@@ -163,6 +163,7 @@ a.active,a.hover{
     text-decoration: none;
 }
 .navi li a:hover{
+    color: #fff;
     background-color:#2196f3;
     transition: 0.5s;
 }     
@@ -213,7 +214,7 @@ a.active,a.hover{
     margin: auto;
     margin-top: 40px;
 }
-.about12{
+.a12{
     padding: 30px;
 }
 .header-wrapper{
@@ -324,6 +325,11 @@ a.active,a.hover{
 .table {
     margin: 20px;
 }
+.mailto1{
+    margin: 18px;
+    text-decoration: none;
+    line-height: 1;
+}
 .sections{
     background-color: #2196f3;
     padding: 40px 30px;
@@ -420,23 +426,19 @@ a.active,a.hover{
 }
 .photoshop-bg {
     background-color: #2196f3;
-    margin-right: 40px;
-}
-.jquery-bg {
-    background-color: #26a69a;
-    margin-right: 75px;
-}
-.php-bg {
-    background-color: #ef5350;
-    margin-right: 60px;
+    margin-right: 150px;
 }
 .html5-bg {
     background-color: #3f51b5;
-    margin-right: 159px;
+    margin-right: 30px;
 }
 .css3-bg {
     background-color: #fbc02d;
-    margin-right: 100px;
+    margin-right: 65px;
+}
+.php-bg {
+    background-color: #fb2d2d;
+    margin-right: 140px;
 }
 .marketing-bg {
     background-color: #ab47bc;
@@ -452,42 +454,28 @@ a.active,a.hover{
     color: #2196f3;
     float: right;
     margin-top: -26px;
-    margin-right: 40px;
+    margin-right: 150px;
     font-weight: 600;
 }
-.jquery-color{
-    color: #26a69a;
-    float: right;
-    margin-top: -26px;
-    margin-right: 77px;
-    font-weight: 600;
-}
+
 .php-color{
     color: #ef5350;
     float: right;
     margin-top: -26px;
-    margin-right: 60px;
+    margin-right: 140px;
     font-weight: 600;
 }
 .html-color{
     color: #3f51b5;
     float: right;
-    margin: -33px 140px 0px 142px;
+    margin-right: 30px;
     font-weight: 600;
 }
 .css3-color{
     color: #fbc02d;
     float: right;
     margin-top: -26px;
-    margin-right: 103px;
-    font-weight: 600;
-}
-.marketing-color{
-    color: #ab47bc;
-    float: right;
-    margin-top: -26px;
-    margin-right: 80px;
-    margin-bottom: 30px;
+    margin-right: 70px;
     font-weight: 600;
 }
 .language-skill{
@@ -529,9 +517,6 @@ a.active,a.hover{
 .comman-color{
     color: blue;
     padding-left: 27px;
-}
-.education-skill{
-    padding: 0px 30px;
 }
 .education-skill p{
     padding-left: 15px;
@@ -788,8 +773,10 @@ a.active,a.hover{
     position: relative;
     margin-bottom: 60px;
 }
-.contacts{
-    margin: 50px;
+.email12 a,
+.phones a,
+.mailto1 a{
+    text-decoration: none;
 }
 .contact-me p{
     font-size: 14px;
