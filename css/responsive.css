@@ -3,6 +3,9 @@
         width: 440px;
         margin: -60px 0 90px -11px;
     }
+    .cta {
+        margin: 30px 0px 0px 115px;
+    }
     .checkbtn{
         display: block;
     }
@@ -16,9 +19,6 @@
     }
     .head p{
         text-align: center;
-    }
-    .cta{
-        margin: 0 0 0 105px;
     }
     .header-images{
         display: none;
@@ -79,7 +79,7 @@
         font-size: 20px;
     }
     .graphicdesign{
-        box-shadow: 0px 10px 10px 10px #7d797954;
+        box-shadow: 0px 0px 6px #ddd;
         margin-left: -32px;
     }
     .skilled-tittle{
@@ -155,9 +155,6 @@
     .contact-me p {
         font-size: 17px;
     }
-    .phone {
-        max-width: 440px;
-    }
     .style {
         margin: 0px;
         width: 190px;
@@ -181,6 +178,9 @@
         margin-left: 0px;
         display: block;
     }
+    .cta {
+        margin: 30px 0px 0px 260px;
+    }
     .headers h2 {
         font-size: 10px;
     }
@@ -192,10 +192,6 @@
     }
     .head h1{
         font-size: 32px;
-    }
-    .cta {
-        margin: 0 0 0 260px;
-        text-align: center;
     }
     .cta2{
         display: none;
@@ -225,7 +221,7 @@
         margin-left: 46px;
     }
     .personal-details{
-        margin-left: 100px;
+        margin: 0px 140px;
     }
     .circles{
         display: block;
@@ -281,13 +277,12 @@
     .navi12{
         display: inline;
     }
+    .cta {
+        margin: 30px 0px 0px 280px;
+    }
     .custom-btn{
         margin-left: 0px;
         display: block;
-    }
-    .cta {
-        text-align: center;
-        justify-items: center;
     }
     .headers h2 {
         font-size: 15px;
@@ -312,6 +307,7 @@
     }
     .graphicdesign{
         width: 587px;
+        margin: 10px 2px;
         display: inline-block;
     }
     .skill ul {
@@ -376,7 +372,7 @@
     }
     .circles{
         display: flex;
-        margin: 10px 10px 10px 100px;
+        margin: 10px 10px 10px 0px;
        }
     .collis {
         margin: 0 -20px 0 -72px;
@@ -389,7 +385,7 @@
         width: 162px;
     }
     .header-image {
-        max-width: 330px;
+        max-width: 382px;
     }
     .phone {
         margin: 83px 29px 0px;
@@ -406,7 +402,7 @@
     } 
     .iconss-wrappers{
         display: inline-block;
-        margin: 21px -25px 0 0px;
+        margin: 0px -25px 0 0px;
         font-size: 38px;
     }
     .footers {
@@ -419,12 +415,8 @@
         width: 1080px;
         margin-right: 0px;
     }
-    .navi-wrapper{
-        float: right;
-    }
-
-    .navi12{
-        display: inline;
+    .cta {
+        margin: 30px 0px 0px 30px;
     }
     .navi li a{
         font-size: 19px;
@@ -454,10 +446,6 @@
             display: block;
             margin: 0 50px; 
     }
-    .cta {
-        margin: 0 0 0 105px;
-        text-align: center;
-    }
     .head-wrapper{
         padding: 50px;
     }
@@ -470,7 +458,7 @@
     .head h2{
         font-size: 60px;
         font-weight: 700;
-        margin-left: -150px;
+        margin-right: 205px;
     }
     .head h1{                                                                  
         font-size: 40px;
@@ -478,7 +466,7 @@
     }
     .head p{
         font-size: 18px;
-        margin-left: -45px;
+        margin-right: 65px;
     }
     .head-wrapper{
         display: flex;
@@ -490,7 +478,8 @@
         font-size: 40px;
     }
     .graphicdesign{
-        width: 800px;
+        width: 1000px;
+        margin: 10px 2px;
         display: inline-block;
     }
     .skill ul {
@@ -506,7 +495,7 @@
     }
     .skilled-1,
     .skilled-2{
-          margin-left: 120px;
+        margin: 30px 20px 30px 140px;
     }
     .skill h1{
         font-size: 40px;
@@ -567,14 +556,10 @@
     .container{
         width: 1300px;
     }
-    .navi-wrapper{
-        float: right;
-    }
-    .navi12{
-        display: inline;
+    .cta {
+        margin: 30px 0px 0px 30px;
     }
     .navi li a{
-      
         margin: auto;
         padding: 9px;
         display: inline-block;
@@ -601,7 +586,8 @@
         display: block;
     }
     .head-wrapper{
-        padding: 50px;
+        padding: 80px;
+        margin-left: 30px;
         display: flex;
     }
     .headers h2 {
@@ -613,15 +599,16 @@
     .head h2{
         font-size: 80px;
         font-weight: 700;
-        margin-left: -150px;
+        text-align: left;
+        margin: 0px;
     }
     .head p{
         font-size: 20px;
-        margin-left: -45px;
+        margin: 0px;
     }
     .head h1{                                                                  
         font-size: 40px; 
-        margin-left: -45px;
+        margin: 0px;
     }
     .cta2{
         display: inline-flex;
@@ -636,8 +623,9 @@
         font-size: 40px;
     }
     .graphicdesign{
-      width: 800px;
-        display: inline-block;
+      width: 1000px;
+      margin: 10px 2px;
+      display: inline-block;
     }
     .skill-1,
     .skill-2{
@@ -648,7 +636,7 @@
     }
     .skilled-1,
     .skilled-2{
-            margin-left: 120px;
+        margin: 30px 20px 30px 140px;
     }
     .circles{
         display: flex;
@@ -713,8 +701,8 @@
 }
 @media(min-width:1440px){
     .container{
-        width: 950px;
-        margin-right: -34px;
+        width: 1350px;
+        margin-right: auto;
     }
     .checkbtn1{
         font-size: 30px;
@@ -732,26 +720,6 @@
         margin-right: 40px;
         cursor: pointer;
         display: none;
-    }
-    .bodyimages .body12{
-        display: block;
-    }
-    .bodyimages{
-        position: sticky;
-        top: 80px;
-        bottom: 0;
-        float: left;
-        display: block;
-        min-height: 120%;
-        margin: auto;
-        margin-top: 10px;
-        margin-left: 40px;
-        width: 28%;
-        background-color: #ffffff;
-        box-shadow: 0px 10px 10px 0px #7d797954;
-    }
-    .navi-wrapper{
-        float: right;
     }
     .footer-section{
         margin: 0px 60px 0px 0px;

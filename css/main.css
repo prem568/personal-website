@@ -4,9 +4,6 @@
 .clearfix{
     clear: both;
 }
-header{
-    position: absolute;
-}
 body{  
     line-height: 1.625;
     letter-spacing: .5px;
@@ -16,95 +13,6 @@ body{
     margin: auto;
     box-sizing: inherit; 
     overflow-x : hidden;
-}
-.bodyimages .body12{
-    display: none;
-    padding: 80px 0px;
-    position: relative;
-    margin-bottom: 40px;
-}
-.imagers1{
-    padding: 0px 40px;
-}
-.imagers1 img{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.headers{
-    padding: 45px 0px;
-    margin: 0px -38px 0px -38px;
-    background-color: #ffffff;
-    box-shadow: #7d797954 0px 10px 10px 0px;
-}
-.headers h2{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-    font-family:  'Roboto',sans-serif;
-}
-.headers p{
-    font-size: 18px;
-    padding-top: 10px;
-    color: red;
-}
-.photoshop-colors {
-    color: #2196f3;
-    padding: 0px 0px 0px 35px;
-    margin-left: 70px;
-}
-.iconwrappers{
-    list-style: none;
-}
-.social-btn{
-    width: 100%;
-    padding: 50px 0px;
-    text-align: center;
-}
-.social-btn li{
-    margin: 5px;
-    font-size: 20px;
-    text-transform: capitalize;
-    font-family:  'Roboto',sans-serif;
-    width: 35px;
-    height: 35px;
-    opacity: 0.2;
-    border-radius: 100%;
-    display: inline-block;
-    background-color: rgb(0, 0, 0);
-}
-.social-btn li a {
-    color: #fff;
-}
-.discription h2{
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 30px;
-    padding-left: 20px;
-}
-.discription p{
-    font-size: 25px;
-    padding-left: 20px;
-    padding-right: 35px;
-}
-.cv-btn{
-    margin-top: 40px;
-}
-.custom-btn{
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 25px;
-    line-height: 70px;
-    text-align: center;
-    display: inline-block;
-    background-color: #2196f3; 
-    text-transform: capitalize;
-    text-decoration: none;
-    margin-left: 60px;
-    margin-bottom: 40px;
 }
 .right-side-body{
     margin: 0px 0px 0px 5px;
@@ -201,7 +109,7 @@ a.active,a.hover{
     text-align: center;
     font-size: 18px;
     padding: 15px 55px;
-    margin: 12px 28px;
+    margin: 0px 0px 0px 110px;
     display: inline-block;
     background-color: #2196f3;
     text-transform: capitalize;
@@ -215,7 +123,7 @@ a.active,a.hover{
     margin-top: 40px;
 }
 .a12{
-    padding: 30px;
+    padding: 60px;
 }
 .header-wrapper{
     display: flex;
@@ -777,6 +685,7 @@ a.active,a.hover{
 .phones a,
 .mailto1 a{
     text-decoration: none;
+    margin-left: 40px;
 }
 .contact-me p{
     font-size: 14px;
@@ -792,6 +701,8 @@ a.active,a.hover{
 .email h2,
 .address h2{
     font-size: 22px;
+    margin: 15px 0px
+    ;
     line-height: 30px;
 }
 .phones tr{ 
@@ -830,6 +741,7 @@ a.active,a.hover{
     background-color: #2196f3;
     max-width: 420px;
     padding: 40px;
+    margin: 0 0 100px 40px;
 }
 .contact-form h1{
     color: #ffffff;
@@ -886,6 +798,7 @@ textarea{
 }
 .footers p{
     font-size: 16px;
+    margin: 20px 0px;
 }
 .photoshop{
     color:  #2196f3;
