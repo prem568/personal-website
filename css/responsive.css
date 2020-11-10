@@ -21,8 +21,12 @@
     .head p{
         text-align: center;
     }
+    .a12{
+        padding: 10px;
+    }
     .header-images{
         display: none;
+        margin-bottom: 30px;
     }
     .header-wrapper h2 {
         font-size: 33px;
@@ -272,8 +276,8 @@
 }
 @media(min-width:768px){
     .container{
-        width: 768px;
-        margin-right: 40px;
+        width: 745px;
+        margin-right: 0px;
     }
     .navi12{
         display: inline;
@@ -304,7 +308,7 @@
         display: flex;
     }
     .header-wrapper h2{
-        font-size: 20px;
+        font-size: 34px;
     }
     .graphicdesign{
         width: 587px;
@@ -314,8 +318,6 @@
     .skill ul {
         margin-left: 10px;
         text-align: center;
-    }
-    .skill ul {
         display: flex;
     }
     .skill-progress {
@@ -327,7 +329,7 @@
           margin-left: 100px;
     }
     .skill h1{
-        font-size: 20px;
+        font-size: 34px;
     }
     .cards-typers-wrappers{
         display: flex;
@@ -410,14 +412,16 @@
         padding: 16px 30px;
     }
 }
-
 @media(min-width:927px){ 
     .container{
-        width: 1080px;
+        width: 1000px;
         margin-right: 0px;
     }
     .cta {
         margin: 30px 0px 0px 30px;
+    }
+    .a12{
+        padding: 60px;
     }
     .navi li a{
         font-size: 19px;
@@ -552,10 +556,13 @@
 }
 @media(min-width:1200px){
     .right-side-body{
-        margin: 130px 60px;
+        margin: 0px 40px;
     }       
     .container{
-        width: 1300px;
+        width: 1100px;
+    }
+    .a12{
+        padding: 60px;
     }
     .cta {
         margin: 30px 0px 0px 30px;
@@ -704,6 +711,9 @@
     .container{
         width: 1350px;
         margin: 20px auto;
+    }
+    .a12{
+        padding: 60px;
     }
     .checkbtn1{
         font-size: 30px;
