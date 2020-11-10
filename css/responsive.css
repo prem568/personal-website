@@ -2,7 +2,7 @@
     .container {
         width: 460px;
         overflow: hidden;
-        margin: 15px -150px 15px 0px;
+        margin: 15px -150px 15px -15px;
     }
     .cta {
         margin: 30px 0px 0px 115px;
