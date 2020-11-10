@@ -23,7 +23,6 @@ body{
     text-transform: capitalize;
     background-color: #ffffff;
     width: 200%;
-    float: right;
     position: relative;
     margin: 10px 0px;
     box-sizing: inherit;
@@ -421,42 +420,25 @@ a.active,a.hover{
 .education-skill p{
     padding-left: 15px;
 }
-.icon1{
-    color: #2196f3;
-}
-.icon2{
-    color: #26a69a;
-}
-.icon3{
-   color: #ef5350;
-}
-.icon4{
-    color: #fbc02d;
-}
-.icon5{
-    color: #ab47bc;
-}
+.icon1,
 .icons1{
     color: #2196f3;
 }
+.icon2,
 .icons2{
     color: #26a69a;
 }
+.icon3,
 .icons3{
-    color: #ef5350;
+   color: #ef5350;
 }
+.icon4,
 .icons4{
     color: #fbc02d;
 }
+.icon5,
 .icons5{
     color: #ab47bc;
-}
-.icons1,
-.icons2,
-.icons3,
-.icons4,
-.icons5{
-    min-width: 10px;
 }
 .active{
     list-style: none;
@@ -673,8 +655,11 @@ a.active,a.hover{
     position: relative;
     margin-bottom: 60px;
 }
+.phones a{
+    text-decoration: none;
+    margin: 10px 10px 10px 40px;
+}
 .email12 a,
-.phones a,
 .mailto1 a{
     text-decoration: none;
     margin-left: 40px;

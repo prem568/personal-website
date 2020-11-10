@@ -173,7 +173,7 @@
         font-size: 38px;
         
     }
-    }
+}
 @media(min-width:480px){
     .container{
         width: 745px;
@@ -249,15 +249,14 @@
        .strongs3{
         margin: 75px 0 0 -125px;
        }
-    .testomonial-images{
-        padding-left: 38px;
-    }
-    .iconss-wrappers{
-        display: inline-block;
-        margin: -104px -66px 0 0px;
-        font-size: 38px;
-        
-    }
+        .testomonial-images{
+            padding-left: 38px;
+        }
+        .iconss-wrappers{
+            display: inline-block;
+            margin: -104px -66px 0 0px;
+            font-size: 38px;   
+        }
     textarea{
         width: 50px;
     }
@@ -278,9 +277,6 @@
     .container{
         width: 745px;
         margin-right: 0px;
-    }
-    .navi12{
-        display: inline;
     }
     .cta {
         margin: 30px 0px 0px 280px;
@@ -545,9 +541,6 @@
     .message{
         width: 100%;
     }
-    .footer-section{
-        margin: 0px 0px 0px 0px;
-    }
     .backtotop{
         position: absolute;
         right: 80px;
@@ -698,9 +691,6 @@
     .button a {
         padding: 0px 25px;
     }
-    .footer-section{
-        margin: 0px 60px 0px 0px;
-    }
     .backtotop{
         position: absolute;
         right: 80px;
@@ -731,9 +721,6 @@
         margin-right: 40px;
         cursor: pointer;
         display: none;
-    }
-    .footer-section{
-        margin: 0px 60px 0px 0px;
     }
 
 }
