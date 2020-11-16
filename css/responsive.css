@@ -99,7 +99,7 @@
        font-size: 16px;
    }
    .circles{
-        display: block;
+        display: flex;
         margin: 10px 10px 10px -30px;
    }
    .circled{
@@ -273,6 +273,14 @@
         margin-left: 120px;
         width: 500px;
     }
+    .contact-form{
+        max-width: 300px;
+        margin: 0px 0px 50px -120px;
+    }
+    .message textarea{
+        height: 80px;
+        width: 97px;
+    }
     .footer-section{
         margin: 0px 0px 0px 0px;
     }
@@ -285,7 +293,7 @@
 @media(min-width:768px){
     .container{
         width: 745px;
-        margin-right: 0px;
+        margin: 0 0 10px -4px;
     }
     .cta {
         margin: 30px 0px 0px 280px;
@@ -391,16 +399,29 @@
         max-width: 382px;
     }
     .phone {
-        margin: 83px 29px 0px;
-        display: inline-block;
+        margin: 83px 20px 50px;
+        display: inline-flex;
     }
     .phone-2{
         width: 500px;
     }
+    .phones,
+    .email,
+    .address{
+        max-width: 400px;
+    }
+    .contact-form{
+        max-width: 300px;
+        margin: 0px 0px 50px -120px;
+    }
+    .message textarea{
+        height: 80px;
+        width: 97px;
+    }
     .iconss-wrappers{
         display: inline-block;
-        margin: -27px -25px 0 0px;
-        font-size: 70px;
+        margin: -10px 30px 0 0px;
+        font-size: 50px;
     }
     .footers {
         padding: 16px 30px;
@@ -477,7 +498,7 @@
         font-size: 40px;
     }
     .graphicdesign{
-        width: 1000px;
+        width: 880px;
         margin: 10px 2px;
         display: inline-block;
     }
@@ -492,9 +513,11 @@
     .skill ul {
         display: flex;
     }
-    .skilled-1,
-    .skilled-2{
+    .skilled-1{
         margin: 30px 20px 30px 140px;
+    }
+    .skilled-2{
+        margin: 30px 20px 30px 60px;
     }
     .skill h1{
         font-size: 40px;
@@ -530,8 +553,13 @@
         flex-direction: column;
         width: 500px;
     }
+    .contact-form{
+        max-width: 445px;
+        margin: 0px 0px 50px -60px;
+    }
     .message textarea{
         height: 80px;
+        width: 360px;
     }
     .input-field,
     .message{
@@ -664,15 +692,31 @@
         margin: 83px 29px 0px;
         display: flex;
     }
+    .phone {
+        display: inline-flex;
+    }
+    .phones,
+    .email,
+    .address{
+        max-width: 500px;
+    }
     .email12 p{
         font-size: 18px;
     }
     .address12 p{
         font-size: 18px;
     }
+    .contact-form{
+        max-width: 445;
+        margin: 0px 0px 100px 0px;
+    }
     .contact-form h1{
         font-size: 16px;
         line-height: 24px;
+    }
+    .message textarea{
+        height: 80px;
+        width: 360px;
     }
     .sections{
         margin: 40px 20px 0 -26px;
