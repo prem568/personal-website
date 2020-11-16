@@ -165,7 +165,6 @@
         padding: 80px 30px;
     }
     .iconss-wrappers{
-        margin: -104px -66px 0 0px;
         font-size: 38px;
         display: inline-block;
     }
@@ -416,7 +415,7 @@
     }
     .message textarea{
         height: 80px;
-        width: 97px;
+        width: 228px;
     }
     .iconss-wrappers{
         display: inline-block;

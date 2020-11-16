@@ -796,7 +796,7 @@ textarea{
     padding: 20px 30px;
 }
 .footers p{
-    font-size: 19px;
+    font-size: 16px;
     margin: 28px 0px;
 }
 .photoshop{
@@ -804,8 +804,13 @@ textarea{
     text-decoration: none;
 }
 .iconss-wrappers{
-    margin: 16px 22px 0 0px;
+    margin: 50px -26px 0 0px;
+    background-color: #0000004f;
+    border-radius: 50px;
     color: black;
+}
+.iconss-wrappers:hover{
+    color: #fff;
 }
 .backtotop{
     position: absolute;
