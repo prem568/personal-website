@@ -99,39 +99,39 @@
        font-size: 16px;
    }
    .circles{
-    display: block;
-    margin: 10px 10px 10px -30px;
+        display: block;
+        margin: 10px 10px 10px -30px;
    }
    .circled{
-    width: 163px;
-    text-align: center;
-    margin: 10px 10px 10px 18px;
+        width: 163px;
+        text-align: center;
+        margin: 10px 10px 10px 18px;
    }
    .circle123{
        display: flex;
    }
    .strongs1{
-    margin: 75px 0 0 -125px;
+        margin: 75px 0 0 -125px;
    }
    .strongs2{
-    margin: 75px 0 0 -140px;
+        margin: 75px 0 0 -140px;
    }
    .strongs3{
-    margin: 75px 0 0 -125px;
+        margin: 75px 0 0 -125px;
    }
    .education-skill p{
        font-size: 20px;
    }
    .header-image{
-    max-width: 363px;
-    margin: 0px 0 0 -45px;
+        max-width: 363px;
+        margin: 0px 0 0 -45px;
    }
    .testomonials-image{
-    max-width: 398px;
+        max-width: 398px;
    }
    .testomonial-image h2 {
-    font-size: 26px;
-    margin: 90px 65px 57px 2px;
+        font-size: 26px;
+        margin: 90px 65px 57px 2px;
     }
     .ceo{
         font-size: 16px;
@@ -225,48 +225,47 @@
     }
     .circles{
         display: block;
-        margin: 10px 10px 10px 10px;
-       }
-       .circled{
+    }
+    .circled{
         width: 163px;
         text-align: center;
         margin: 10px 10px 10px 18px;
-       }
-       .circle123{
-           display: flex;
-       }
-       .strongs1{
+    }
+    .circle123{
+        display: flex;
+    }
+    .strongs1{
         margin: 75px 0 0 -125px;
-       }
-       .strongs2{
+    }
+    .strongs2{
         margin: 75px 0 0 -140px;
-       }
-       .strongs3{
+    }
+    .strongs3{
         margin: 75px 0 0 -125px;
-       }
-        .testomonial-images{
-            padding-left: 38px;
-        }
-        .iconss-wrappers{
-            display: inline-block;
-            margin: -104px -66px 0 0px;
-            font-size: 38px;   
-        }
-        .icons1{
-            margin-left: 48px;
-        }
-        .icons2{
-            margin-left: 53px;
-        }
-        .icons3{
-            margin-left: 305px;
-        }
-        .icons4{
-            margin-left: 140px;
-        }
-        .icons5{
-            margin-left: 220px;
-        }
+    }
+    .testomonial-images{
+        padding-left: 38px;
+    }
+    .iconss-wrappers{
+        display: inline-block;
+        margin: -104px -66px 0 0px;
+        font-size: 38px;   
+    }
+    .icons1{
+        margin-left: 48px;
+    }
+    .icons2{
+        margin-left: 53px;
+    }
+    .icons3{
+        margin-left: 305px;
+    }
+    .icons4{
+        margin-left: 140px;
+    }
+    .icons5{
+        margin-left: 220px;
+    }   
     textarea{
         width: 50px;
     }
@@ -332,7 +331,7 @@
     }
     .skilled-1,
     .skilled-2{
-          margin-left: 100px;
+        margin-left: 100px;
     }
     .skill h1{
         font-size: 34px;
@@ -442,9 +441,9 @@
         display: none;
     }
     .custom-btn{
-            margin-left: 0px;
-            display: block;
-            margin: 0 50px; 
+        margin-left: 0px;
+        display: block;
+        margin: 0 50px;    
     }
     .head-wrapper{
         padding: 50px;
@@ -593,7 +592,7 @@
         font-size: 80px;
         font-weight: 700;
         text-align: left;
-        margin: 0px;
+        margin: 0px 0px -27px 0px;
     }
     .head p{
         font-size: 20px;
@@ -616,9 +615,9 @@
         font-size: 40px;
     }
     .graphicdesign{
-      width: 1000px;
-      margin: 10px 2px;
-      display: inline-block;
+        width: 1000px;
+        margin: 10px 2px;
+        display: inline-block;
     }
     .skill-1,
     .skill-2{
@@ -642,11 +641,11 @@
         margin-left: -47px;
     }
     .collis{
-            margin: 0 -20px 0 -72px;
+        margin: 0 -20px 0 -72px;
     }
     .testomonials-image{
-            max-width: 306px;
-            margin: 0 0 0 62px;
+        max-width: 306px;
+        margin: 0 0 0 62px;
     }
     .type-1,
     .type-2,
@@ -677,7 +676,7 @@
     }
     .sections{
         margin: 40px 20px 0 -26px;
-         padding: 36px 50px;
+        padding: 36px 50px;
     }
     .button a {
         padding: 0px 25px;
