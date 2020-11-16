@@ -797,16 +797,14 @@ textarea{
 }
 .footers p{
     font-size: 19px;
-    text-decoration: none;
     margin: 28px 0px;
 }
 .photoshop{
     color:  #2196f3;
+    text-decoration: none;
 }
 .iconss-wrappers{
-    text-decoration: none;
     margin: 16px 22px 0 0px;
-    font-size: 40px;
     color: black;
 }
 .backtotop{
