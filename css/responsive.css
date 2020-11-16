@@ -34,22 +34,18 @@
     .type-1{
         max-width: 340px;
         background-color: #fafafd;
-        box-shadow: 0px 0px 56px 0px #7d797954;
     }
     .type-2{
         max-width: 340px;
         background-color: #fafafd;
-        box-shadow: 0px 0px 56px 0px #7d797954;
     }
     .type-3{
         max-width: 340px;
         background-color: #fafafd;
-        box-shadow: 0px 0px 56px 0px #7d797954;
     }
     .type-4{
         max-width: 340px;
         background-color: #fafafd;
-        box-shadow: 0px 0px 56px 0px #7d797954;
     }
     .card-type-wrapper h1{
         font-size: 20px;
@@ -158,7 +154,7 @@
         width: 306px
     }
     .contact-me p {
-        font-size: 17px;
+        font-size: 20px;
     }
     .style {
         margin: 0px;
@@ -171,7 +167,7 @@
     .iconss-wrappers{
         margin: -104px -66px 0 0px;
         font-size: 38px;
-        
+        display: inline-block;
     }
 }
 @media(min-width:480px){
@@ -222,7 +218,6 @@
     .type-3,
     .type-4{
         max-width: 500px;
-        padding: 30px 30px 30px 30px;
         margin-left: 46px;
     }
     .personal-details{
@@ -257,11 +252,26 @@
             margin: -104px -66px 0 0px;
             font-size: 38px;   
         }
+        .icons1{
+            margin-left: 48px;
+        }
+        .icons2{
+            margin-left: 53px;
+        }
+        .icons3{
+            margin-left: 305px;
+        }
+        .icons4{
+            margin-left: 140px;
+        }
+        .icons5{
+            margin-left: 220px;
+        }
     textarea{
         width: 50px;
     }
     .phone-2{
-        margin-left: 10px;
+        margin-left: 120px;
         width: 500px;
     }
     .footer-section{
@@ -347,24 +357,19 @@
         padding: 30px 30px 30px 30px;
     }
     .icons1{
-        color: #2196f3;
         margin-left: 48px;
     }
     .icons2{
-        color: #26a69a;
         margin-left: 53px;
     }
     .icons3{
-        color: #ef5350;
         margin-left: 305px;
     }
     .icons4{
-        color: #fbc02d;
-        margin-left: 142px;
+        margin-left: 140px;
     }
     .icons5{
-        color: #ab47bc;
-        margin-left: 222px;
+        margin-left: 220px;
     }
     .sliders12{
         display: flex;
@@ -391,18 +396,12 @@
         display: inline-block;
     }
     .phone-2{
-        margin-right: 10px;
         width: 500px;
     }
-    .backtotop{
-        position: absolute;
-        right: 80px;
-        margin: -83px 0 0 0;
-    } 
     .iconss-wrappers{
         display: inline-block;
-        margin: 0px -25px 0 0px;
-        font-size: 38px;
+        margin: -27px -25px 0 0px;
+        font-size: 70px;
     }
     .footers {
         padding: 16px 30px;
@@ -510,7 +509,6 @@
     .type-3,
     .type-4{
         max-width: 160px;
-        padding: 30px 30px 30px 30px;
     }
     .type-wrapper {
         display: inline-block;
@@ -531,7 +529,6 @@
     }
     .phone-2{
         flex-direction: column;
-        margin-left: 10px;
         width: 500px;
     }
     .message textarea{
@@ -541,11 +538,6 @@
     .message{
         width: 100%;
     }
-    .backtotop{
-        position: absolute;
-        right: 80px;
-        margin: -83px 0 0 0;
-    } 
 }
 @media(min-width:1200px){
     .right-side-body{
@@ -661,7 +653,6 @@
     .type-3,
     .type-4{
         max-width: 160px;
-        padding: 30px 30px 30px 30px;
     }
     .type-wrapper {
         display: inline-block;

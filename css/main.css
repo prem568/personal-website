@@ -133,6 +133,9 @@ a.active,a.hover{
     padding-left: 5px;
     font-size: 23px;
 }
+.portfolio-wrapper p{
+    font-size: 20px;
+}
 .header-wrapper h2{
     font-size: 24px;
 }
@@ -161,20 +164,16 @@ a.active,a.hover{
     width: 100%;
     display: table;
     font-weight: 100;
-}.type-1{  
+}
+.type-12{
+
+}
+.type-1{  
     max-width:200px;
     margin: 20px 20px;
     padding: 30px 20px;
+    position: relative;
     border-bottom: solid 2px #2196f3;
-    background-color: #f5eded8f; 
-}
-.icon-wrapper-1{
-    font-size: 40px;
-    padding-bottom: 45px;
-    color: #2196f3;
-}
-.icon-wrapper-1 h1{
-    color: sandybrown;
 }
 .type-2{
     max-width:200px;
@@ -183,11 +182,6 @@ a.active,a.hover{
     border-bottom: solid 2px #ef5350;
     background-color: #f5eded8f;
 }
-.icon-wrapper-2{
-    color: #ef5350;
-    font-size: 40px;
-    padding-bottom: 45px;
-}
 .type-3 {
     max-width:200px;
     margin: 20px 20px;
@@ -195,17 +189,33 @@ a.active,a.hover{
     border-bottom: solid 2px #fbc02d;
     background-color: #f5eded8f;
 }
-.icon-wrapper-3{
-    color: #fbc02d;
-    font-size: 40px;
-    padding-bottom: 45px;
-}
 .type-4 {
     max-width:200px;
     margin: 20px 20px;
     padding: 20px 20px;
     border-bottom: solid 2px #ab47bc;
     background-color: #f5eded8f;
+}
+.type-1 h1:hover{
+    color: #fff;
+    background: #1b9bff;
+    transition: 2s;
+    padding: 25px 15px;
+}
+.icon-wrapper-1{
+    font-size: 40px;
+    padding-bottom: 45px;
+    color: #2196f3;
+}
+.icon-wrapper-2{
+    color: #ef5350;
+    font-size: 40px;
+    padding-bottom: 45px;
+}
+.icon-wrapper-3{
+    color: #fbc02d;
+    font-size: 40px;
+    padding-bottom: 45px;
 }
 .icon-wrapper-4{
     color: #ab47bc;
@@ -229,10 +239,10 @@ a.active,a.hover{
 .table {
     margin: 20px;
 }
-.mailto1{
-    margin: 18px;
+.mailto1 a{
     text-decoration: none;
     line-height: 1;
+    color: black;
 }
 .sections{
     background-color: #2196f3;
@@ -419,6 +429,22 @@ a.active,a.hover{
 }
 .education-skill p{
     padding-left: 15px;
+}
+.icons1{
+    
+    margin-left: 48px;
+}
+.icons2{
+    margin-left: 53px;
+}
+.icons3{
+    margin-left: 30px;
+}
+.icons4{
+    margin-left: 10px;
+}
+.icons5{
+    margin-left: 17px;
 }
 .icon1,
 .icons1{
@@ -659,8 +685,7 @@ a.active,a.hover{
     text-decoration: none;
     margin: 10px 10px 10px 40px;
 }
-.email12 a,
-.mailto1 a{
+.email12 a{
     text-decoration: none;
     margin-left: 40px;
 }
@@ -716,6 +741,7 @@ a.active,a.hover{
 
 .contact-form{
     background-color: #2196f3;
+    border-radius: 10px;
     max-width: 420px;
     padding: 40px;
     margin: 0 0 100px 0px;
@@ -764,17 +790,21 @@ textarea{
     padding: 10px 40px;
     margin-top: 60px;
     margin-bottom: 20px;
+    border-radius: 50px;
 }
 .form{
     cursor: pointer;
     text-decoration: none;
     color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 .footers{
     padding: 20px 30px;
 }
 .footers p{
-    font-size: 16px;
+    font-size: 19px;
+    text-decoration: none;
     margin: 20px 0px;
 }
 .photoshop{
@@ -788,6 +818,6 @@ textarea{
 }
 .backtotop{
     position: absolute;
-    right: 80px;
-    margin: -83px 0 0 0;
+    right: 55px;
+    margin: -150px 0 0 0;
 } 
