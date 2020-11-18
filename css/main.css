@@ -677,11 +677,11 @@ a.active,a.hover{
 }
 .phones a{
     text-decoration: none;
-    margin: 10px 10px 10px 40px;
+   color: black;
 }
 .email12 a{
     text-decoration: none;
-    margin-left: 40px;
+   color: black;
 }
 .contact-me p{
     font-size: 14px;
@@ -781,9 +781,11 @@ textarea{
 .submitform{
     cursor: pointer;
     padding: 10px 40px;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
     border-radius: 50px;
+    border: none;
+    font-size: 20px;
 }
 .form{
     cursor: pointer;
@@ -797,23 +799,27 @@ textarea{
 }
 .footers p{
     font-size: 16px;
-    margin: 28px 0px;
 }
 .photoshop{
     color:  #2196f3;
     text-decoration: none;
 }
-.iconss-wrappers{
-    margin: 50px -26px 0 0px;
-    background-color: #0000004f;
-    border-radius: 50px;
-    color: black;
+.scroll{
+   display: inline-block;
+   background: #2196f3;
+   color: #fff;
+   width: 50px;
+   height: 57px;
+   line-height: 57px;
+   text-align: center;
 }
 .iconss-wrappers:hover{
     color: #fff;
 }
 .backtotop{
+    top: 0;
     position: absolute;
-    right: 55px;
-    margin: -150px 0 0 0;
+    right: 0px;
+    z-index:55px;
+    /*margin: -83px 0 0 0*/
 } 
