@@ -130,9 +130,6 @@ a.active,a.hover{
     padding-left: 5px;
     font-size: 23px;
 }
-.portfolio-wrapper p{
-    font-size: 20px;
-}
 .header-wrapper h2{
     font-size: 24px;
 }
@@ -364,7 +361,8 @@ a.active,a.hover{
 .js-color{
     color: #ef5350;
     float: right;
-    margin-top: -26px;
+    font-size: 20px;
+    margin-top: -31px;
     margin-right: 140px;
     font-weight: 600;
 }
@@ -463,9 +461,6 @@ a.active,a.hover{
 }
 .strong{
     color: black;
-}
-.portfolio-wrapper{
-    margin: 0 15px;
 }
 .images{
     margin-left: 40px;
