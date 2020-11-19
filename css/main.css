@@ -428,12 +428,6 @@ a.active,a.hover{
     
     margin-left: 48px;
 }
-.icons2{
-    margin-left: 53px;
-}
-.icons3{
-    margin-left: 30px;
-}
 .icons4{
     margin-left: 10px;
 }
@@ -443,14 +437,6 @@ a.active,a.hover{
 .icon1,
 .icons1{
     color: #2196f3;
-}
-.icon2,
-.icons2{
-    color: #26a69a;
-}
-.icon3,
-.icons3{
-   color: #ef5350;
 }
 .icon4,
 .icons4{
@@ -464,15 +450,11 @@ a.active,a.hover{
     list-style: none;
 }
 .according-header-1 a,
-.according-header-2 a,
-.according-header-3 a,
 .according-header-4 a,
 .according-header-5 a{  
     text-decoration: none;
 }
 .according-header-1,
-.according-header-2,
-.according-header-3,
 .according-header-4,
 .according-header-5{
     color: black;
@@ -676,12 +658,14 @@ a.active,a.hover{
     margin-bottom: 60px;
 }
 .phones a{
+    font-size: 24px;
     text-decoration: none;
-   color: black;
+    color: black;
 }
 .email12 a{
+    font-size: 24px;
     text-decoration: none;
-   color: black;
+    color: black;
 }
 .contact-me p{
     font-size: 14px;
@@ -722,6 +706,7 @@ a.active,a.hover{
     box-shadow: 6px 6px 12px 6px #7d797945;
 }
 .address p{
+    font-size: 24px;
     padding: 0px 5px;
     margin: 10px -7px;
 }
@@ -811,6 +796,7 @@ textarea{
    width: 50px;
    height: 57px;
    line-height: 57px;
+   text-decoration: none;
    text-align: center;
 }
 .iconss-wrappers:hover{

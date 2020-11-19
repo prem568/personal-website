@@ -253,12 +253,6 @@
     .icons1{
         margin-left: 48px;
     }
-    .icons2{
-        margin-left: 53px;
-    }
-    .icons3{
-        margin-left: 305px;
-    }
     .icons4{
         margin-left: 140px;
     }
@@ -283,11 +277,6 @@
     .footer-section{
         margin: 0px 0px 0px 0px;
     }
-    .backtotop{
-        position: absolute;
-        right: 0px;
-        margin: -83px 0 0 0;
-    } 
 }
 @media(min-width:768px){
     .container{
@@ -365,17 +354,11 @@
     .icons1{
         margin-left: 48px;
     }
-    .icons2{
-        margin-left: 53px;
-    }
-    .icons3{
-        margin-left: 305px;
-    }
     .icons4{
-        margin-left: 140px;
+        margin-left: 210px;
     }
     .icons5{
-        margin-left: 220px;
+        margin-left: 280px;
     }
     .sliders12{
         display: flex;
@@ -702,9 +685,6 @@
     .email12 p{
         font-size: 18px;
     }
-    .address12 p{
-        font-size: 18px;
-    }
     .contact-form{
         max-width: 445;
         margin: 0px 0px 100px 0px;
@@ -724,11 +704,6 @@
     .button a {
         padding: 0px 25px;
     }
-    .backtotop{
-        position: absolute;
-        right: 80px;
-        margin: -83px 0 0 0;
-    } 
 }
 @media(min-width:1440px){
     .container{
