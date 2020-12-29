@@ -99,18 +99,6 @@ a.active,a.hover{
     font-size: 18px;
     margin-bottom: 20px;
 }
-.cta {
-    cursor: pointer;
-    color: #ffffff;
-    text-align: center;
-    font-size: 18px;
-    padding: 15px 55px;
-    margin: 0px 0px 0px 110px;
-    display: inline-block;
-    background-color: #2196f3;
-    text-transform: capitalize;
-    text-decoration: none;
-}
 .header-images{
     display: block;
     max-width: 300px;
@@ -579,72 +567,6 @@ a.active,a.hover{
     96%{
         left: -100%;
     }
-}
-
-.testomono{
-    margin: 50px;
-}
-.testomonial-image h2{
-    font-size: 20px;
-    margin: 90px 65px 57px 2px;
-}
-.testomonial-image p{
-    margin-left: 3px;
-}
-.testomonial p{
-    margin: 10px 0px 50px 0px ;
-}
-.testomonials-image{
-    max-width: 150px;
-}
-.collis{
-    display: inline-flex;
-    margin-right: 0px;  box-shadow: 6px 6px 12px 6px #7d797945;
-    background-color: #ffffff;
-}
-.collish2{
-    margin-left: 10px;
-}
-.collisp{
-    margin-bottom: 25px;
-}
-.ceo{
-    font-weight: 100;
-    color: #2196f3;
-    font-size: 15px;
-}
-.common-color{
-    cursor: pointer;
-    color:  #2196f3;
-    margin-left: 10px;
-    margin-bottom: 50px;
-}
-.testomonials-images{
-    width: 100%;
-    opacity: .30;
-    display: block;
-    padding: 20px 0px;
-    padding-left: 10px;
-    line-height: 120px;
-    text-align: center;
-}
-.overlay{
-    cursor: pointer;
-}
-.overlay a{
-    padding: 0px 20px;
-}
-.overlay li{
-    text-decoration: none;
-    display: inline-flex;
-    padding-right: 30px;
-    text-align: center;
-    border-right: 2px solid #cccccc;
-}
-.overlay li img:hover{
-    transform: scale(1.1); 
-    z-index: 0;
-    transition: all .4s;
 }
 .contact-me{
     width: 100%;

@@ -4,9 +4,6 @@
         overflow: hidden;
         margin: 15px -150px 15px -15px;
     }
-    .cta {
-        margin: 30px 0px 0px 115px;
-    }
     .checkbtn{
         display: block;
     }
@@ -87,11 +84,9 @@
         font-size: 20px;
     }
     .photoshop-color,
-    .jquery-color,
-    .php-color,
+    .js-color,
     .html-color,
-    .css3-color,
-    .marketing-color{
+    .css3-color{
         font-size: 20px;
         margin-top: -33px;
     }
@@ -126,33 +121,6 @@
         max-width: 363px;
         margin: 0px 0 0 -45px;
    }
-   .testomonials-image{
-        max-width: 398px;
-   }
-   .testomonial-image h2 {
-        font-size: 26px;
-        margin: 90px 65px 57px 2px;
-    }
-    .ceo{
-        font-size: 16px;
-    }
-    .testomonial-image p {
-        margin-left: 3px;
-        font-size: 20px;
-    }
-    .overlay li{
-        text-decoration: none;
-        display: inline-flex;
-        padding-right: 20px;
-        text-align: center;
-    }
-    .common-color{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
-    .testomonial-images{
-        width: 306px
-    }
     .contact-me p {
         font-size: 20px;
     }
@@ -178,9 +146,6 @@
         margin-left: 0px;
         display: block;
     }
-    .cta {
-        margin: 30px 0px 0px 260px;
-    }
     .headers h2 {
         font-size: 10px;
     }
@@ -192,9 +157,6 @@
     }
     .head h1{
         font-size: 32px;
-    }
-    .cta2{
-        display: none;
     }
     .icofont-tags {
         color: black;
@@ -242,9 +204,6 @@
     .strongs3{
         margin: 75px 0 0 -125px;
     }
-    .testomonial-images{
-        padding-left: 38px;
-    }
     .iconss-wrappers{
         display: inline-block;
         margin: -104px -66px 0 0px;
@@ -282,9 +241,6 @@
     .container{
         width: 745px;
         margin: 0 0 10px -4px;
-    }
-    .cta {
-        margin: 30px 0px 0px 280px;
     }
     .custom-btn{
         margin-left: 0px;
@@ -367,16 +323,6 @@
         display: flex;
         margin: 10px 10px 10px 0px;
        }
-    .collis {
-        margin: 0 -20px 0 -72px;
-    }
-    .testomonials-image{
-        max-width: 306px;
-        margin: 0 0 0 62px;
-    }
-    .testomonial-images {
-        width: 162px;
-    }
     .header-image {
         max-width: 382px;
     }
@@ -413,9 +359,6 @@
     .container{
         width: 1000px;
         margin-right: 0px;
-    }
-    .cta {
-        margin: 30px 0px 0px 30px;
     }
     .a12{
         padding: 60px;
@@ -649,13 +592,6 @@
     .cards-typers-wrappers{
         display: flex;
         margin-left: -47px;
-    }
-    .collis{
-        margin: 0 -20px 0 -72px;
-    }
-    .testomonials-image{
-        max-width: 306px;
-        margin: 0 0 0 62px;
     }
     .type-1,
     .type-2,
